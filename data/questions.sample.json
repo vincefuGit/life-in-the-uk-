@@ -1,0 +1,140 @@
+[
+  {
+    "id": "q-1.2-001",
+    "subsectionId": "1.2-becoming-a-permanent-resident",
+    "question": "How many questions are there in the Life in the UK test?",
+    "options": ["18", "24", "30", "45"],
+    "correctAnswers": [1],
+    "multiSelect": false
+  },
+  {
+    "id": "q-1.2-002",
+    "subsectionId": "1.2-becoming-a-permanent-resident",
+    "question": "What level of English does the Life in the UK test assume?",
+    "options": ["ESOL Entry Level 1", "ESOL Entry Level 3", "GCSE English", "IELTS Band 7"],
+    "correctAnswers": [1],
+    "multiSelect": false
+  },
+  {
+    "id": "q-1.2-003",
+    "subsectionId": "1.2-becoming-a-permanent-resident",
+    "question": "From October 2013, what evidence must you produce alongside passing the Life in the UK test for settlement or permanent residence?",
+    "options": [
+      "A university degree certificate",
+      "Evidence of speaking and listening skills in English at B1 of the Common European Framework of Reference",
+      "A letter from your employer",
+      "Proof of home ownership"
+    ],
+    "correctAnswers": [1],
+    "multiSelect": false
+  },
+  {
+    "id": "q-1.3-001",
+    "subsectionId": "1.3-values-and-principles",
+    "question": "Which of these is one of the fundamental principles of British life listed in the handbook?",
+    "options": ["Monarchy by divine right", "The rule of law", "State religion", "One-party rule"],
+    "correctAnswers": [1],
+    "multiSelect": false
+  },
+  {
+    "id": "q-1.3-002",
+    "subsectionId": "1.3-values-and-principles",
+    "question": "Select TWO things the UK offers in return for residents respecting and obeying the law.",
+    "options": ["Freedom of belief and religion", "Automatic citizenship after one year", "A right to a fair trial", "Free university tuition"],
+    "correctAnswers": [0, 2],
+    "multiSelect": true
+  },
+  {
+    "id": "q-1.3-003",
+    "subsectionId": "1.3-values-and-principles",
+    "question": "As part of the citizenship ceremony, new citizens pledge to do what?",
+    "options": [
+      "Renounce all other nationalities",
+      "Uphold the UK's democratic values and observe its laws faithfully",
+      "Join a political party",
+      "Learn Welsh, Gaelic and Irish"
+    ],
+    "correctAnswers": [1],
+    "multiSelect": false
+  },
+  {
+    "id": "q-1.4-001",
+    "subsectionId": "1.4-taking-the-test",
+    "question": "In which languages, besides English, can special arrangements be made to take the Life in the UK test?",
+    "options": ["French and German", "Welsh and Scottish Gaelic", "Polish and Urdu", "Irish Gaelic and Cornish"],
+    "correctAnswers": [1],
+    "multiSelect": false
+  },
+  {
+    "id": "q-1.4-002",
+    "subsectionId": "1.4-taking-the-test",
+    "question": "True or false: you can take the Life in the UK test at any test centre of your choosing, including ones not registered with the UK Border Agency.",
+    "options": ["True", "False"],
+    "correctAnswers": [1],
+    "multiSelect": false
+  },
+  {
+    "id": "q-3.7-001",
+    "subsectionId": "3.7-early-britain",
+    "question": "What ancient monument, still standing in Wiltshire, was probably a gathering place for seasonal ceremonies in the Stone Age?",
+    "options": ["Hadrian's Wall", "Stonehenge", "Skara Brae", "Maiden Castle"],
+    "correctAnswers": [1],
+    "multiSelect": false
+  },
+  {
+    "id": "q-3.7-002",
+    "subsectionId": "3.7-early-britain",
+    "question": "Who led the Roman invasion of Britain in AD 43?",
+    "options": ["Julius Caesar", "Emperor Hadrian", "Emperor Claudius", "Boudicca"],
+    "correctAnswers": [2],
+    "multiSelect": false
+  },
+  {
+    "id": "q-3.7-003",
+    "subsectionId": "3.7-early-britain",
+    "question": "Boudicca was the queen of which tribe, who fought against the Romans?",
+    "options": ["The Picts", "The Iceni", "The Britons of Wales", "The Scots"],
+    "correctAnswers": [1],
+    "multiSelect": false
+  },
+  {
+    "id": "q-3.7-004",
+    "subsectionId": "3.7-early-britain",
+    "question": "Hadrian's Wall was built to keep out which group?",
+    "options": ["The Picts", "The Vikings", "The Normans", "The Anglo-Saxons"],
+    "correctAnswers": [0],
+    "multiSelect": false
+  },
+  {
+    "id": "q-3.7-005",
+    "subsectionId": "3.7-early-britain",
+    "question": "Which two peoples invaded Britain after the Romans left, giving modern English its basis?",
+    "options": ["The Vikings and Normans", "The Angles and Saxons", "The Romans and Picts", "The Scots and Irish"],
+    "correctAnswers": [1],
+    "multiSelect": false
+  },
+  {
+    "id": "q-3.7-006",
+    "subsectionId": "3.7-early-britain",
+    "question": "Who united the Anglo-Saxon kingdoms in England and defeated the Vikings?",
+    "options": ["King Alfred the Great", "King Cnut", "William the Conqueror", "Kenneth MacAlpin"],
+    "correctAnswers": [0],
+    "multiSelect": false
+  },
+  {
+    "id": "q-3.7-007",
+    "subsectionId": "3.7-early-britain",
+    "question": "In what year did the Norman Conquest take place?",
+    "options": ["1066", "1166", "966", "1215"],
+    "correctAnswers": [0],
+    "multiSelect": false
+  },
+  {
+    "id": "q-3.7-008",
+    "subsectionId": "3.7-early-britain",
+    "question": "What is the name of the survey William the Conqueror ordered, listing towns, villages, landowners and livestock across England?",
+    "options": ["The Magna Carta", "The Bayeux Tapestry", "The Domesday Book", "The Hundred Years roll"],
+    "correctAnswers": [2],
+    "multiSelect": false
+  }
+]
