@@ -1,0 +1,1153 @@
+[
+  {
+    "id": "q-1.2-001",
+    "subsectionId": "1.2-becoming-a-permanent-resident",
+    "question": "How many questions are there in the Life in the UK test?",
+    "options": ["18", "24", "30", "45"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.4: 'The test consists of 24 questions about important aspects of life in the UK.'"
+  },
+  {
+    "id": "q-1.2-002",
+    "subsectionId": "1.2-becoming-a-permanent-resident",
+    "question": "What level of English does the Life in the UK test assume?",
+    "options": ["ESOL Entry Level 1", "ESOL Entry Level 3", "GCSE English", "IELTS Band 7"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.2: 'The questions are written in a way that requires an understanding of the English language at ESOL Entry Level 3.'"
+  },
+  {
+    "id": "q-1.2-003",
+    "subsectionId": "1.2-becoming-a-permanent-resident",
+    "question": "From October 2013, what evidence must you produce alongside passing the Life in the UK test for settlement or permanent residence?",
+    "options": [
+      "A university degree certificate",
+      "Evidence of speaking and listening skills in English at B1 of the Common European Framework of Reference",
+      "A letter from your employer",
+      "Proof of home ownership"
+    ],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.2: 'Produce acceptable evidence of speaking and listening skills in English at B1 of the Common European Framework of Reference. This is equivalent to ESOL Entry Level 3.'"
+  },
+  {
+    "id": "q-1.2-004",
+    "subsectionId": "1.2-becoming-a-permanent-resident",
+    "question": "Select TWO things you need to apply to become a permanent resident or citizen of the UK.",
+    "options": ["Speak and read English", "Own a property in the UK", "Have a good understanding of life in the UK", "Hold a university degree"],
+    "correctAnswers": [0, 2],
+    "multiSelect": true,
+    "sourceFact": "1.2: 'To apply to become a permanent resident or citizen of the UK, you will need to: speak and read English; have a good understanding of life in the UK.'"
+  },
+  {
+    "id": "q-1.2-005",
+    "subsectionId": "1.2-becoming-a-permanent-resident",
+    "question": "What is the alternative to taking the Life in the UK test if your English is below ESOL Entry Level 3?",
+    "options": [
+      "You cannot become a permanent resident",
+      "Pass an ESOL course in English with Citizenship",
+      "Pay an additional fee instead",
+      "Take the test in your native language"
+    ],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.2: 'Pass an ESOL course in English with Citizenship. You will need to take this course if your standard of English is below ESOL Entry Level 3.'"
+  },
+  {
+    "id": "q-1.3-001",
+    "subsectionId": "1.3-values-and-principles",
+    "question": "Which of these is one of the fundamental principles of British life listed in the handbook?",
+    "options": ["Monarchy by divine right", "The rule of law", "State religion", "One-party rule"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.3: 'The fundamental principles of British life include: Democracy, The rule of law, Individual liberty, Tolerance of those with different faiths and beliefs, Participation in community life.'"
+  },
+  {
+    "id": "q-1.3-002",
+    "subsectionId": "1.3-values-and-principles",
+    "question": "Select TWO things the UK offers in return for residents respecting and obeying the law.",
+    "options": ["Freedom of belief and religion", "Automatic citizenship after one year", "A right to a fair trial", "Free university tuition"],
+    "correctAnswers": [0, 2],
+    "multiSelect": true,
+    "sourceFact": "1.3: 'In return, the UK offers: freedom of belief and religion, freedom of speech, freedom from unfair discrimination, a right to a fair trial, a right to join in the election of a government.'"
+  },
+  {
+    "id": "q-1.3-003",
+    "subsectionId": "1.3-values-and-principles",
+    "question": "As part of the citizenship ceremony, new citizens pledge to do what?",
+    "options": [
+      "Renounce all other nationalities",
+      "Uphold the UK's democratic values and observe its laws faithfully",
+      "Join a political party",
+      "Learn Welsh, Gaelic and Irish"
+    ],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.3: 'I will give my loyalty to the United Kingdom and respect its rights and freedoms. I will uphold its democratic values. I will observe its laws faithfully and fulfil my duties and obligations as a British citizen.'"
+  },
+  {
+    "id": "q-1.3-004",
+    "subsectionId": "1.3-values-and-principles",
+    "question": "According to the handbook, is there a place in British society for extremism or intolerance?",
+    "options": ["Yes, as long as it is non-violent", "No, there is no place for it", "Only during elections", "Only in private settings"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.3: 'There is no place in British society for extremism or intolerance.'"
+  },
+  {
+    "id": "q-1.4-001",
+    "subsectionId": "1.4-taking-the-test",
+    "question": "In which languages, besides English, can special arrangements be made to take the Life in the UK test?",
+    "options": ["French and German", "Welsh and Scottish Gaelic", "Polish and Urdu", "Irish Gaelic and Cornish"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.4: 'The Life in the UK test is usually taken in English, although special arrangements can be made if you wish to take it in Welsh or Scottish Gaelic.'"
+  },
+  {
+    "id": "q-1.4-002",
+    "subsectionId": "1.4-taking-the-test",
+    "question": "True or false: you can take the Life in the UK test at any test centre of your choosing, including ones not registered with the UK Border Agency.",
+    "options": ["True", "False"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.4: 'You should not take your test at any other establishment as the UK Border Agency will only accept certificates from registered test centres.'"
+  },
+  {
+    "id": "q-1.4-003",
+    "subsectionId": "1.4-taking-the-test",
+    "question": "Approximately how many registered test centres are there around the UK for taking the Life in the UK test?",
+    "options": ["About 10", "About 60", "About 200", "About 500"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.4: 'You can only take the test at a registered and approved Life in the UK test centre... There are about 60 test centres around the UK.'"
+  },
+  {
+    "id": "q-1.4-004",
+    "subsectionId": "1.4-taking-the-test",
+    "question": "What must you bring with you to your Life in the UK test, or you will not be able to take it?",
+    "options": [
+      "A friend or family member",
+      "Identification and proof of your address",
+      "A laptop",
+      "Your employment contract"
+    ],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "1.4: 'You will need to take some identification and proof of your address with you to the test. If you don't take these, you will not be able to take the test.'"
+  },
+  {
+    "id": "q-2.2-001",
+    "subsectionId": "2.2-what-is-the-uk",
+    "question": "Which countries make up the United Kingdom?",
+    "options": [
+      "England, Scotland, Wales and Northern Ireland",
+      "England, Scotland, Wales and the Republic of Ireland",
+      "England and Scotland only",
+      "Great Britain and the Channel Islands"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "2.2: 'The UK is made up of England, Scotland, Wales and Northern Ireland. The rest of Ireland is an independent country.'"
+  },
+  {
+    "id": "q-2.2-002",
+    "subsectionId": "2.2-what-is-the-uk",
+    "question": "Which countries does the term 'Great Britain' officially refer to?",
+    "options": [
+      "England, Scotland and Wales",
+      "England and Northern Ireland",
+      "England, Scotland, Wales and Northern Ireland",
+      "Scotland and Northern Ireland"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "2.2: 'Great Britain' refers only to England, Scotland and Wales, not to Northern Ireland.'"
+  },
+  {
+    "id": "q-2.2-003",
+    "subsectionId": "2.2-what-is-the-uk",
+    "question": "Select TWO places which are 'Crown dependencies' closely linked to the UK but not part of it.",
+    "options": ["The Channel Islands", "The Isle of Man", "The Falkland Islands", "Northern Ireland"],
+    "correctAnswers": [0, 1],
+    "multiSelect": true,
+    "sourceFact": "2.2: 'There are also several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man. These have their own governments and are called 'Crown dependencies'.'"
+  },
+  {
+    "id": "q-2.2-004",
+    "subsectionId": "2.2-what-is-the-uk",
+    "question": "Where does the UK Parliament, which governs the whole of the UK, sit?",
+    "options": ["Edinburgh", "Cardiff", "Westminster", "Belfast"],
+    "correctAnswers": [2],
+    "multiSelect": false,
+    "sourceFact": "2.2: 'The UK is governed by the parliament sitting in Westminster.'"
+  },
+  {
+    "id": "q-2.2-005",
+    "subsectionId": "2.2-what-is-the-uk",
+    "question": "Which British overseas territories are mentioned as examples in the handbook?",
+    "options": ["St Helena and the Falkland Islands", "Gibraltar and Bermuda", "Malta and Cyprus", "Jamaica and Belize"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "2.2: 'There are also several British overseas territories in other parts of the world, such as St Helena and the Falkland Islands. They are also linked to the UK but are not a part of it.'"
+  },
+  {
+    "id": "q-3.2-001",
+    "subsectionId": "3.2-britain-since-1945",
+    "question": "Who was the Labour Prime Minister elected in 1945 who introduced the welfare state?",
+    "options": ["Winston Churchill", "Clement Attlee", "Harold Macmillan", "Margaret Thatcher"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "3.2: 'In 1945 the British people elected a Labour government. The new Prime Minister was Clement Atlee, who promised to introduce the welfare state outlined in the Beveridge Report.'"
+  },
+  {
+    "id": "q-3.2-002",
+    "subsectionId": "3.2-britain-since-1945",
+    "question": "Who led the establishment of the National Health Service (NHS) in 1948?",
+    "options": ["Aneurin (Nye) Bevan", "William Beveridge", "Clement Attlee", "Winston Churchill"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.2: 'In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS).'"
+  },
+  {
+    "id": "q-3.2-003",
+    "subsectionId": "3.2-britain-since-1945",
+    "question": "Whose 1942 report formed the basis of the modern welfare state?",
+    "options": ["William Beveridge's report", "Clement Attlee's report", "R A Butler's report", "Winston Churchill's report"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.2: 'William Beveridge... is best known for the 1942 report Social Insurance and Allied Services (known as the Beveridge Report)... provided the basis of the modern welfare state.'"
+  },
+  {
+    "id": "q-3.2-004",
+    "subsectionId": "3.2-britain-since-1945",
+    "question": "Who invented the World Wide Web, with information first transferred via the web in December 1990?",
+    "options": ["Alan Turing", "Sir Tim Berners-Lee", "John Logie Baird", "Sir Frank Whittle"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "3.2: 'The inventor of the World Wide Web, Sir Tim Berners-Lee, is British. Information was successfully transferred via the web for the first time on 25 December 1990.'"
+  },
+  {
+    "id": "q-3.2-005",
+    "subsectionId": "3.2-britain-since-1945",
+    "question": "Who developed the jet engine in Britain in the 1930s?",
+    "options": ["Sir Frank Whittle", "Sir Christopher Cockerell", "Sir Robert Watson-Watt", "Alan Turing"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.2: 'The jet engine was developed in Britain in the 1930s by Sir Frank Whittle.'"
+  },
+  {
+    "id": "q-3.2-006",
+    "subsectionId": "3.2-britain-since-1945",
+    "question": "Two British scientists led the team that first succeeded in cloning a mammal, Dolly the sheep, in 1996. Who were they?",
+    "options": [
+      "Sir Ian Wilmot and Keith Campbell",
+      "Sir Robert Edwards and Patrick Steptoe",
+      "Sir Peter Mansfield and Francis Crick",
+      "James Goodfellow and Sir Bernard Lovell"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.2: 'In 1996, two British scientists, Sir Ian Wilmot and Keith Campbell, led a team which was the first to succeed in cloning a mammal, Dolly the sheep.'"
+  },
+  {
+    "id": "q-3.2-007",
+    "subsectionId": "3.2-britain-since-1945",
+    "question": "Who became the UK's first woman Prime Minister in 1979?",
+    "options": ["Margaret Thatcher", "Mary Peters", "Emmeline Pankhurst", "Florence Nightingale"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.2: 'Following the Conservative victory in the General Election in 1979, Margaret Thatcher became the first woman Prime Minister of the UK.'"
+  },
+  {
+    "id": "q-3.2-008",
+    "subsectionId": "3.2-britain-since-1945",
+    "question": "In what year did the UK join the European Economic Community (EEC)?",
+    "options": ["1957", "1973", "1979", "1997"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "3.2: 'West Germany, France, Belgium, Italy, Luxembourg and the Netherlands formed the European Economic Community (EEC) in 1957... it eventually did so in 1973.'"
+  },
+  {
+    "id": "q-3.3-001",
+    "subsectionId": "3.3-a-global-power",
+    "question": "What did the Bill of Rights of 1689 confirm?",
+    "options": [
+      "The rights of Parliament and the limits of the king's power",
+      "The independence of Scotland",
+      "Universal suffrage for all adults",
+      "The abolition of the monarchy"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.3: 'The Bill of Rights, 1689, confirmed the rights of Parliament and the limits of the king's power.'"
+  },
+  {
+    "id": "q-3.3-002",
+    "subsectionId": "3.3-a-global-power",
+    "question": "In what year was the Act of Union, creating the Kingdom of Great Britain, agreed with Scotland?",
+    "options": ["1603", "1707", "1801", "1832"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "3.3: 'The Act of Union, known as the Treaty of Union in Scotland, was therefore agreed in 1707, creating the Kingdom of Great Britain.'"
+  },
+  {
+    "id": "q-3.3-003",
+    "subsectionId": "3.3-a-global-power",
+    "question": "Who was the first person to hold the title of Prime Minister, serving from 1721 to 1742?",
+    "options": ["Sir Robert Walpole", "Robert Burns", "William Wilberforce", "the Duke of Wellington"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.3: 'The most important minister in Parliament became known as the Prime Minister. The first man to be called this was Sir Robert Walpole, who was Prime Minister from 1721 to 1742.'"
+  },
+  {
+    "id": "q-3.3-004",
+    "subsectionId": "3.3-a-global-power",
+    "question": "Charles Edward Stuart (Bonnie Prince Charlie) was defeated at which 1746 battle, ending the rebellion of the Scottish clans?",
+    "options": ["The Battle of Culloden", "The Battle of Bannockburn", "The Battle of Trafalgar", "The Battle of Waterloo"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.3: 'Charles initially had some successes but was defeated by George II's army at the Battle of Culloden in 1746.'"
+  },
+  {
+    "id": "q-3.3-005",
+    "subsectionId": "3.3-a-global-power",
+    "question": "Which act made it illegal to trade slaves in British ships or from British ports?",
+    "options": [
+      "The 1807 Act ending the slave trade",
+      "The Bill of Rights",
+      "The Act of Union",
+      "The Reform Act of 1832"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.3: 'In 1807, it became illegal to trade slaves in British ships or from British ports, and in 1833 the Emancipation Act abolished slavery throughout the British Empire.'"
+  },
+  {
+    "id": "q-3.3-006",
+    "subsectionId": "3.3-a-global-power",
+    "question": "The Union Flag combines the crosses of which three saints?",
+    "options": [
+      "St George, St Andrew and St Patrick",
+      "St David, St George and St Andrew",
+      "St Patrick, St David and St Columba",
+      "St Augustine, St George and St Andrew"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.3: 'The cross of St George, patron saint of England... The cross of St Andrew, patron saint of Scotland... The cross of St Patrick, patron saint of Ireland.'"
+  },
+  {
+    "id": "q-3.3-007",
+    "subsectionId": "3.3-a-global-power",
+    "question": "Who became queen of the UK in 1837 at the age of 18 and reigned for almost 64 years?",
+    "options": ["Queen Victoria", "Queen Anne", "Queen Elizabeth I", "Queen Mary"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.3: 'In 1837, Queen Victoria became queen of the UK at the age of 18. She reigned until 1901, almost 64 years.'"
+  },
+  {
+    "id": "q-3.3-008",
+    "subsectionId": "3.3-a-global-power",
+    "question": "Who is regarded as the founder of modern nursing, having worked in military hospitals during the Crimean War?",
+    "options": ["Florence Nightingale", "Emmeline Pankhurst", "Mary Peters", "Queen Victoria"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.3: 'Florence Nightingale... is often regarded as the founder of modern nursing.'"
+  },
+  {
+    "id": "q-3.4-001",
+    "subsectionId": "3.4-the-20th-century",
+    "question": "What event on 28 June 1914 triggered the chain of events leading to the First World War?",
+    "options": [
+      "The assassination of Archduke Franz Ferdinand of Austria",
+      "The invasion of Poland",
+      "The sinking of the Lusitania",
+      "The Battle of the Somme"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.4: 'On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War.'"
+  },
+  {
+    "id": "q-3.4-002",
+    "subsectionId": "3.4-the-20th-century",
+    "question": "At what time and on what date did the First World War end?",
+    "options": ["11.00 am on 11 November 1918", "Midnight on 1 January 1919", "Noon on 4 August 1914", "6.00 am on 8 May 1945"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.4: 'The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies.'"
+  },
+  {
+    "id": "q-3.4-003",
+    "subsectionId": "3.4-the-20th-century",
+    "question": "In 1921, a peace treaty was signed splitting Ireland into two. What was the result for the six counties in the north?",
+    "options": [
+      "They remained part of the UK as Northern Ireland",
+      "They became fully independent immediately",
+      "They joined the Irish Free State",
+      "They became a French protectorate"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.4: 'In 1921 a peace treaty was signed and in 1922 Ireland became two countries. The six counties in the north which were mainly Protestant remained part of the UK under the name Northern Ireland.'"
+  },
+  {
+    "id": "q-3.4-004",
+    "subsectionId": "3.4-the-20th-century",
+    "question": "Who became Britain's Prime Minister and war leader in 1940, refusing to surrender to the Nazis?",
+    "options": ["Winston Churchill", "Clement Attlee", "Neville Chamberlain", "Stanley Baldwin"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.4: 'At this time of national crisis, Winston Churchill became Prime Minister and Britain's war leader.'"
+  },
+  {
+    "id": "q-3.4-005",
+    "subsectionId": "3.4-the-20th-century",
+    "question": "What name is given to the 1940 naval operation that rescued more than 300,000 British and French soldiers from the beaches of France?",
+    "options": ["The evacuation of Dunkirk", "D-Day", "The Battle of Britain", "The Blitz"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.4: 'civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk.'"
+  },
+  {
+    "id": "q-3.4-006",
+    "subsectionId": "3.4-the-20th-century",
+    "question": "On what date did Allied forces land in Normandy, an event often referred to as 'D-Day'?",
+    "options": ["6 June 1944", "11 November 1918", "8 May 1945", "1 September 1939"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.4: 'On 6 June 1944, allied forces landed in Normandy (this event is often referred to as 'D-Day').'"
+  },
+  {
+    "id": "q-3.4-007",
+    "subsectionId": "3.4-the-20th-century",
+    "question": "Who discovered penicillin in 1928, going on to win the Nobel Prize in Medicine in 1945?",
+    "options": ["Alexander Fleming", "Sir Tim Berners-Lee", "Sir Frank Whittle", "Francis Crick"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.4: 'Born in Scotland, Fleming moved to London... when he discovered penicillin... Fleming won the Nobel Prize in Medicine in 1945.'"
+  },
+  {
+    "id": "q-3.5-001",
+    "subsectionId": "3.5-the-middle-ages",
+    "question": "What charter of rights, agreed in 1215, established the idea that even the king was subject to the law?",
+    "options": ["The Magna Carta", "The Bill of Rights", "The Domesday Book", "The Act of Union"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.5: 'In that year King John was forced by his noblemen to agree to a number of demands. The result was a charter of rights called the Magna Carta.'"
+  },
+  {
+    "id": "q-3.5-002",
+    "subsectionId": "3.5-the-middle-ages",
+    "question": "What disease, which arrived in Britain in 1348 and killed about one third of the population of England, became known as the Black Death?",
+    "options": ["A form of plague", "Smallpox", "Cholera", "Influenza"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.5: 'In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death. One third of the population of England died.'"
+  },
+  {
+    "id": "q-3.5-003",
+    "subsectionId": "3.5-the-middle-ages",
+    "question": "In 1314, who defeated the English at the Battle of Bannockburn, keeping Scotland unconquered?",
+    "options": ["Robert the Bruce", "King John", "William the Conqueror", "Henry V"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.5: 'In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English.'"
+  },
+  {
+    "id": "q-3.5-004",
+    "subsectionId": "3.5-the-middle-ages",
+    "question": "Who wrote The Canterbury Tales, a collection of poems about pilgrims travelling to Canterbury?",
+    "options": ["Geoffrey Chaucer", "William Shakespeare", "John Barbour", "William Caxton"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.5: 'Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage... This collection of poems is called The Canterbury Tales.'"
+  },
+  {
+    "id": "q-3.5-005",
+    "subsectionId": "3.5-the-middle-ages",
+    "question": "The Wars of the Roses (1455-1485) ended at the Battle of Bosworth Field, with the leader of the House of Lancaster becoming which king?",
+    "options": ["King Henry VII", "King Richard III", "King Henry V", "King John"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.5: 'The war ended with the Battle of Bosworth Field in 1485. King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII.'"
+  },
+  {
+    "id": "q-3.6-001",
+    "subsectionId": "3.6-the-tudors-and-stuarts",
+    "question": "Henry VIII was most famous for breaking away from the Church of Rome and doing what?",
+    "options": ["Marrying six times", "Abolishing Parliament", "Conquering France", "Banning Christianity"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.6: 'Henry VIII was most famous for breaking away from the Church of Rome and marrying six times.'"
+  },
+  {
+    "id": "q-3.6-002",
+    "subsectionId": "3.6-the-tudors-and-stuarts",
+    "question": "In 1588, the English defeated a large fleet of ships sent by Spain to conquer England, helping to make Elizabeth I one of the most popular monarchs in English history. What was this fleet called?",
+    "options": ["The Spanish Armada", "The Golden Hind", "The Mayflower", "The Bayeux fleet"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.6: 'particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England.'"
+  },
+  {
+    "id": "q-3.6-003",
+    "subsectionId": "3.6-the-tudors-and-stuarts",
+    "question": "Which playwright, born in Stratford-upon-Avon, wrote Hamlet, Macbeth and Romeo and Juliet?",
+    "options": ["William Shakespeare", "Geoffrey Chaucer", "John Milton", "Christopher Marlowe"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.6: 'Shakespeare was born in Stratford-upon-Avon, England. He was a playwright and actor and wrote many poems and plays. His most famous plays include A Midsummer Night's Dream, Hamlet, Macbeth and Romeo and Juliet.'"
+  },
+  {
+    "id": "q-3.6-004",
+    "subsectionId": "3.6-the-tudors-and-stuarts",
+    "question": "What is the name of the English translation of the Bible produced during the reign of King James I?",
+    "options": ["The King James Bible", "The Geneva Bible", "The Book of Common Prayer", "The Magna Carta"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.6: 'One achievement of King James' reign was a new translation of the Bible into English. This translation is known as the 'King James Version' or the 'Authorised Version'.'"
+  },
+  {
+    "id": "q-3.6-005",
+    "subsectionId": "3.6-the-tudors-and-stuarts",
+    "question": "What event began in 1642, splitting the country into supporters of the king (Cavaliers) and supporters of Parliament (Roundheads)?",
+    "options": ["The English Civil War", "The Glorious Revolution", "The Wars of the Roses", "The Jacobite rebellion"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.6: 'Civil war between the king and Parliament could not now be avoided and began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).'"
+  },
+  {
+    "id": "q-3.6-006",
+    "subsectionId": "3.6-the-tudors-and-stuarts",
+    "question": "Who led the parliamentary army to victory in the Civil War, and later ruled as Lord Protector of the English Republic?",
+    "options": ["Oliver Cromwell", "Charles I", "Charles II", "James II"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.6: 'One of its generals, Oliver Cromwell, was sent to Ireland... After his campaign in Ireland and victory over Charles II at Worcester, Cromwell was recognised as the leader of the new republic. He was given the title of Lord Protector.'"
+  },
+  {
+    "id": "q-3.6-007",
+    "subsectionId": "3.6-the-tudors-and-stuarts",
+    "question": "What was the 'Glorious Revolution' of 1688?",
+    "options": [
+      "William and Mary took the throne with no fighting in England, guaranteeing the power of Parliament",
+      "The execution of Charles I",
+      "The Spanish Armada's defeat",
+      "The Restoration of Charles II"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.6: 'William ruled jointly with Mary. This event was later called the 'Glorious Revolution' because there was no fighting in England and it guaranteed the power of Parliament.'"
+  },
+  {
+    "id": "q-4.2-001",
+    "subsectionId": "4.2-arts-and-culture",
+    "question": "Which German-born composer, who became a British citizen in 1727, wrote the Water Music and Music for the Royal Fireworks?",
+    "options": ["George Frederick Handel", "Henry Purcell", "Gustav Holst", "Edward Elgar"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.2: 'The German-born composer George Frederick Handel (1695-1759) spent many years in the UK and became a British citizen in 1727. He wrote the Water Music for King George I and Music for the Royal Fireworks.'"
+  },
+  {
+    "id": "q-4.2-002",
+    "subsectionId": "4.2-arts-and-culture",
+    "question": "Which novelist wrote Pride and Prejudice and Sense and Sensibility?",
+    "options": ["Jane Austen", "Charlotte Bronte", "Thomas Hardy", "Evelyn Waugh"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.2: 'Jane Austen (1775-1817) was an English novelist. Her books include Pride and Prejudice and Sense and Sensibility.'"
+  },
+  {
+    "id": "q-4.2-003",
+    "subsectionId": "4.2-arts-and-culture",
+    "question": "Which author wrote the Harry Potter series of children's books?",
+    "options": ["J K Rowling", "Roald Dahl", "Charles Dickens", "Agatha Christie"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.2: 'J K Rowling (1965-) wrote the Harry Potter series of children's books, which have enjoyed huge international success.'"
+  },
+  {
+    "id": "q-4.2-004",
+    "subsectionId": "4.2-arts-and-culture",
+    "question": "Which murder-mystery play by Agatha Christie has been running in London's West End since 1952?",
+    "options": ["The Mousetrap", "The Mikado", "Cats", "The Phantom of the Opera"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.2: 'The Mousetrap, a murder-mystery play by Dame Agatha Christie, has been running in the West End since 1952 and has had the longest initial run of any show in history.'"
+  },
+  {
+    "id": "q-4.2-005",
+    "subsectionId": "4.2-arts-and-culture",
+    "question": "Which prize, established in 1984 and named after a painter, celebrates contemporary art in the UK?",
+    "options": ["The Turner Prize", "The Man Booker Prize", "The Mercury Music Prize", "The Brit Award"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.2: 'The Turner Prize was established in 1984 and celebrates contemporary art. It was named after Joseph Turner.'"
+  },
+  {
+    "id": "q-4.3-001",
+    "subsectionId": "4.3-customs-and-traditions",
+    "question": "What is the day after Christmas Day, also a public holiday, called?",
+    "options": ["Boxing Day", "St Stephen's Day", "New Year's Eve", "Twelfth Night"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.3: 'Boxing Day is the day after Christmas Day and is a public holiday.'"
+  },
+  {
+    "id": "q-4.3-002",
+    "subsectionId": "4.3-customs-and-traditions",
+    "question": "Which Hindu and Sikh festival, often called the Festival of Lights, normally falls in October or November?",
+    "options": ["Diwali", "Vaisakhi", "Eid al-Fitr", "Hannukah"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.3: 'Diwali normally falls in October or November and lasts for five days. It is often called the Festival of Lights. It is celebrated by Hindus and Sikhs.'"
+  },
+  {
+    "id": "q-4.3-003",
+    "subsectionId": "4.3-customs-and-traditions",
+    "question": "What event in 1605, when a group of Catholics led by Guy Fawkes failed to kill the king, is commemorated by fireworks on Bonfire Night, 5 November?",
+    "options": [
+      "A failed plot to blow up the Houses of Parliament",
+      "The Spanish Armada's defeat",
+      "The start of the Civil War",
+      "The Glorious Revolution"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.3: 'Bonfire Night, 5 November... The origin of this celebration was an event in 1605, when a group of Catholics led by Guy Fawkes failed in their plan to kill the Protestant king with a bomb in the Houses of Parliament.'"
+  },
+  {
+    "id": "q-4.3-004",
+    "subsectionId": "4.3-customs-and-traditions",
+    "question": "Which Sikh festival, celebrated on 14 April each year, marks the founding of the Sikh community known as the Khalsa?",
+    "options": ["Vaisakhi", "Diwali", "Eid ul Adha", "Hannukah"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.3: 'Vaisakhi (also spelled Baisakhi) is a Sikh festival which celebrates the founding of the Sikh community known as the Khalsa. It is celebrated on 14 April each year.'"
+  },
+  {
+    "id": "q-4.4-001",
+    "subsectionId": "4.4-leisure",
+    "question": "Which traditional Scottish food is a sheep's stomach stuffed with offal, suet, onions and oatmeal?",
+    "options": ["Haggis", "Welsh cakes", "Ulster fry", "Yorkshire pudding"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.4: 'Scotland: Haggis - a sheep's stomach stuffed with offal, suet, onions and oatmeal.'"
+  },
+  {
+    "id": "q-4.4-002",
+    "subsectionId": "4.4-leisure",
+    "question": "What is the minimum age to buy alcohol in a pub or night club in the UK?",
+    "options": ["16", "18", "21", "There is no minimum age"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "4.4: 'To buy alcohol in a pub or night club you must be 18 or over.'"
+  },
+  {
+    "id": "q-4.4-003",
+    "subsectionId": "4.4-leisure",
+    "question": "Everyone in the UK with a TV, computer or other device used for watching TV must have what, or risk a fine of up to £1,000?",
+    "options": ["A television licence", "A streaming subscription", "A satellite dish permit", "An internet contract"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.4: 'Everyone in the UK with a TV, computer or other medium which can be used for watching TV must have a television licence... You will receive a fine of up to £1,000 if you watch TV but do not have a TV licence.'"
+  },
+  {
+    "id": "q-4.4-004",
+    "subsectionId": "4.4-leisure",
+    "question": "Sir Charles (Charlie) Chaplin became famous for playing what kind of character in silent movies?",
+    "options": ["A tramp character", "A detective", "A soldier", "A king"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.4: 'Sir Charles (Charlie) Chaplin became famous in silent movies for his tramp character.'"
+  },
+  {
+    "id": "q-4.5-001",
+    "subsectionId": "4.5-places-of-interest",
+    "question": "How many national parks are there in England, Wales and Scotland?",
+    "options": ["5", "15", "25", "40"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "4.5: 'There are 15 national parks in England, Wales and Scotland.'"
+  },
+  {
+    "id": "q-4.5-002",
+    "subsectionId": "4.5-places-of-interest",
+    "question": "What is the popular nickname for the great bell of the clock at the Houses of Parliament, whose tower is officially named 'Elizabeth Tower'?",
+    "options": ["Big Ben", "The London Eye", "The Tower of London", "St Paul's Cathedral"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.5: 'Big Ben is the nickname for the great bell of the clock at the Houses of Parliament in London... The clock tower is named 'Elizabeth Tower' in honour of Queen Elizabeth II's Diamond Jubilee in 2012.'"
+  },
+  {
+    "id": "q-4.5-003",
+    "subsectionId": "4.5-places-of-interest",
+    "question": "Located on the north-east coast of Northern Ireland, what land formation made of columns of volcanic lava is a famous landmark?",
+    "options": ["The Giant's Causeway", "Loch Lomond", "The Eden Project", "Snowdonia"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.5: 'Located on the north-east coast of Northern Ireland, the Giant's Causeway is a land formation of columns made from volcanic lava.'"
+  },
+  {
+    "id": "q-4.5-004",
+    "subsectionId": "4.5-places-of-interest",
+    "question": "Which charity, founded in 1895, works to preserve important buildings, coastline and countryside in England, Wales and Northern Ireland?",
+    "options": ["The National Trust", "Historic Scotland", "The Eden Project", "English Heritage"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.5: 'Many parts of the countryside and places of interest are kept open by the National Trust in England, Wales and Northern Ireland... The National Trust was founded in 1895 by three volunteers.'"
+  },
+  {
+    "id": "q-4.6-001",
+    "subsectionId": "4.6-religion",
+    "question": "Who is the head of the Church of England?",
+    "options": ["The monarch", "The Archbishop of Canterbury", "The Prime Minister", "The Pope"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.6: 'The monarch is the head of the Church of England. The spiritual leader of the Church of England is the Archbishop of Canterbury.'"
+  },
+  {
+    "id": "q-4.6-002",
+    "subsectionId": "4.6-religion",
+    "question": "What kind of church is the Church of Scotland?",
+    "options": ["Presbyterian", "Roman Catholic", "Anglican", "Methodist"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.6: 'In Scotland, the national Church is the Church of Scotland, which is a Presbyterian Church.'"
+  },
+  {
+    "id": "q-4.6-003",
+    "subsectionId": "4.6-religion",
+    "question": "Match the patron saint's day to its nation: which date is St George's Day, the patron saint's day of England?",
+    "options": ["23 April", "1 March", "17 March", "30 November"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.6: '23 April: St George's Day, England.'"
+  },
+  {
+    "id": "q-4.6-004",
+    "subsectionId": "4.6-religion",
+    "question": "According to the 2009 Citizenship Survey cited in the handbook, what percentage of people in the UK identified themselves as Christian?",
+    "options": ["50%", "70%", "85%", "95%"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "4.6: 'In the 2009 Citizenship Survey, 70% of people identified themselves as Christian.'"
+  },
+  {
+    "id": "q-4.7-001",
+    "subsectionId": "4.7-sport",
+    "question": "How many times has the UK hosted the Olympic Games?",
+    "options": ["Once", "Twice", "Three times", "Four times"],
+    "correctAnswers": [2],
+    "multiSelect": false,
+    "sourceFact": "4.7: 'The UK has hosted the Olympic Games on three occasions: 1908, 1948 and 2012.'"
+  },
+  {
+    "id": "q-4.7-002",
+    "subsectionId": "4.7-sport",
+    "question": "Which sport's most famous competition, a series of Test matches between England and Australia, is called the Ashes?",
+    "options": ["Cricket", "Rugby", "Football", "Golf"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.7: 'The most famous competition is the Ashes, which is a series of Test matches played between England and Australia.'"
+  },
+  {
+    "id": "q-4.7-003",
+    "subsectionId": "4.7-sport",
+    "question": "Who captained the English football team that won the World Cup in 1966?",
+    "options": ["Bobby Moore", "Sir Ian Botham", "Sir Roger Bannister", "Andy Murray"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.7: 'Bobby Moore (1941-93) captained the English football team that won the World Cup in 1966.'"
+  },
+  {
+    "id": "q-4.7-004",
+    "subsectionId": "4.7-sport",
+    "question": "Who was the first man in the world to run a mile in under four minutes, in 1954?",
+    "options": ["Sir Roger Bannister", "Sir Chris Hoy", "Mo Farah", "David Weir"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.7: 'Sir Roger Bannister (1929-) was the first man in the world to run a mile in under four minutes, in 1954.'"
+  },
+  {
+    "id": "q-4.7-005",
+    "subsectionId": "4.7-sport",
+    "question": "Which annual tennis tournament, hosted at the All England Lawn Tennis and Croquet Club, is the only Grand Slam event played on grass?",
+    "options": ["The Wimbledon Championships", "The US Open", "The French Open", "The Australian Open"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.7: 'The most famous tournament hosted in Britain is The Wimbledon Championships... It is the oldest tennis tournament in the world and the only 'Grand Slam' event played on grass.'"
+  },
+  {
+    "id": "q-4.8-001",
+    "subsectionId": "4.8-the-uk-today",
+    "question": "What is the capital city of Northern Ireland?",
+    "options": ["Belfast", "Cardiff", "Edinburgh", "Dublin"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.8: 'The capital city of Northern Ireland is Belfast.'"
+  },
+  {
+    "id": "q-4.8-002",
+    "subsectionId": "4.8-the-uk-today",
+    "question": "What is the currency of the UK?",
+    "options": ["The pound sterling", "The euro", "The dollar", "The Irish punt"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.8: 'The currency in the UK is the pound sterling (symbol £). There are 100 pence in a pound.'"
+  },
+  {
+    "id": "q-4.8-003",
+    "subsectionId": "4.8-the-uk-today",
+    "question": "In Wales, many people speak a completely different language from English, taught in schools and universities. What is it called?",
+    "options": ["Welsh", "Gaelic", "Cornish", "Manx"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "4.8: 'In Wales, many people speak Welsh - a completely different language from English - and it is taught in schools and universities.'"
+  },
+  {
+    "id": "q-4.8-004",
+    "subsectionId": "4.8-the-uk-today",
+    "question": "Roughly what percentage of the total UK population lives in England?",
+    "options": ["50%", "65%", "84%", "95%"],
+    "correctAnswers": [2],
+    "multiSelect": false,
+    "sourceFact": "4.8: 'England more or less consistently makes up 84% of the total population, Wales around 5%, Scotland just over 8% and Northern Ireland less than 3%.'"
+  },
+  {
+    "id": "q-5.2-001",
+    "subsectionId": "5.2-development-of-british-democracy",
+    "question": "In the 1830s and 1840s, a group called the Chartists campaigned for political reform. Which of these was one of their six demanded changes?",
+    "options": ["For every man to have the vote", "For the monarchy to be abolished", "For Parliament to be dissolved permanently", "For women to be barred from public life"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.2: 'In the 1830s and 1840s, a group called the Chartists campaigned for reform. They wanted six changes: for every man to have the vote...'"
+  },
+  {
+    "id": "q-5.2-002",
+    "subsectionId": "5.2-development-of-british-democracy",
+    "question": "In what year was the voting age reduced to 18 for both men and women?",
+    "options": ["1918", "1928", "1969", "1832"],
+    "correctAnswers": [2],
+    "multiSelect": false,
+    "sourceFact": "5.2: 'In 1969, the voting age was reduced to 18 for men and women.'"
+  },
+  {
+    "id": "q-5.2-003",
+    "subsectionId": "5.2-development-of-british-democracy",
+    "question": "In 1928, the voting franchise was extended so that men and women could vote at what age?",
+    "options": ["18", "21", "25", "30"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "5.2: 'The voting franchise was also extended to women over 30, and then in 1928 to men and women over 21.'"
+  },
+  {
+    "id": "q-5.3-001",
+    "subsectionId": "5.3-the-british-constitution",
+    "question": "Why is the British constitution described as 'unwritten'?",
+    "options": [
+      "Because it is not written down in any single document",
+      "Because it does not exist",
+      "Because only the monarch can read it",
+      "Because it was lost in a fire"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.3: 'The British constitution is not written down in any single document, and therefore it is described as 'unwritten'.'"
+  },
+  {
+    "id": "q-5.3-002",
+    "subsectionId": "5.3-the-british-constitution",
+    "question": "What is the official home of the Prime Minister in central London?",
+    "options": ["10 Downing Street", "Buckingham Palace", "The Palace of Westminster", "Chequers"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.6: 'The official home of the Prime Minister is 10 Downing Street, in central London, near the Houses of Parliament.'"
+  },
+  {
+    "id": "q-5.3-003",
+    "subsectionId": "5.3-the-british-constitution",
+    "question": "Which chamber of Parliament is regarded as more important because its members are democratically elected?",
+    "options": ["The House of Commons", "The House of Lords", "The Privy Council", "The Cabinet"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.3: 'The House of Commons is regarded as the more important of the two chambers in Parliament because its members are democratically elected.'"
+  },
+  {
+    "id": "q-5.3-004",
+    "subsectionId": "5.3-the-british-constitution",
+    "question": "Members of the House of Lords, who are not elected by the public, are known as what?",
+    "options": ["Peers", "MPs", "MSPs", "Aldermen"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.3: 'Members of the House of Lords, known as peers, are not elected by the people and do not represent a constituency.'"
+  },
+  {
+    "id": "q-5.3-005",
+    "subsectionId": "5.3-the-british-constitution",
+    "question": "Who chairs debates in the House of Commons, remaining neutral and not representing a political party?",
+    "options": ["The Speaker", "The Prime Minister", "The monarch", "The Leader of the Opposition"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.3: 'Debates in the House of Commons are chaired by the Speaker. This person is the chief Officer of the House of Commons. The Speaker is neutral and does not represent a political party.'"
+  },
+  {
+    "id": "q-5.3-006",
+    "subsectionId": "5.3-the-british-constitution",
+    "question": "How often must a UK General Election be held, at minimum?",
+    "options": ["Every 4 years", "Every 5 years", "Every 7 years", "Every 10 years"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "5.3: 'MPs are elected at a General Election, which is held at least every five years.'"
+  },
+  {
+    "id": "q-5.4-001",
+    "subsectionId": "5.4-fundamental-principles",
+    "question": "Which 1998 Act incorporated the European Convention on Human Rights into UK law?",
+    "options": ["The Human Rights Act 1998", "The Magna Carta", "The Bill of Rights", "The Equality Act"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.4: 'The Human Rights Act 1998 incorporated the European Convention on Human Rights into UK law.'"
+  },
+  {
+    "id": "q-5.4-002",
+    "subsectionId": "5.4-fundamental-principles",
+    "question": "True or false: female genital mutilation (FGM) is legal in the UK as long as it is performed by a medical professional.",
+    "options": ["True", "False"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "5.4: 'Female genital mutilation (FGM)... is illegal in the UK. Practising FGM or taking a girl or woman abroad for FGM is a criminal offence.'"
+  },
+  {
+    "id": "q-5.4-003",
+    "subsectionId": "5.4-fundamental-principles",
+    "question": "What is the minimum age to ride a moped in the UK?",
+    "options": ["16", "17", "18", "21"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.4: 'You need to be at least 16 years old to ride a moped, and there are other age requirements and special tests for driving large vehicles.'"
+  },
+  {
+    "id": "q-5.4-004",
+    "subsectionId": "5.4-fundamental-principles",
+    "question": "What unique personal account number is sent to all young people in the UK just before their 16th birthday, used to record National Insurance Contributions and tax?",
+    "options": ["A National Insurance number", "A passport number", "An NHS number", "A driving licence number"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.4: 'A National Insurance number is a unique personal account number... All young people in the UK are sent a National Insurance number just before their 16th birthday.'"
+  },
+  {
+    "id": "q-5.5-001",
+    "subsectionId": "5.5-respecting-the-law",
+    "question": "What is the minimum legal age to buy or be sold tobacco products in the UK?",
+    "options": ["16", "18", "21", "There is no minimum age"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "5.5: 'Selling tobacco: it is illegal to sell tobacco products... to anyone under the age of 18.'"
+  },
+  {
+    "id": "q-5.5-002",
+    "subsectionId": "5.5-respecting-the-law",
+    "question": "Select TWO of the duties of the police listed in the handbook.",
+    "options": ["Protect life and property", "Set income tax rates", "Prevent and detect crime", "Appoint members of the cabinet"],
+    "correctAnswers": [0, 2],
+    "multiSelect": true,
+    "sourceFact": "5.5: 'The job of the police in the UK is to: protect life and property; prevent disturbances...; prevent and detect crime.'"
+  },
+  {
+    "id": "q-5.5-003",
+    "subsectionId": "5.5-respecting-the-law",
+    "question": "In England, Wales and Northern Ireland, how many members make up a jury in the Crown Court?",
+    "options": ["7", "9", "12", "15"],
+    "correctAnswers": [2],
+    "multiSelect": false,
+    "sourceFact": "5.5: 'In England, Wales and Northern Ireland a jury has 12 members, and in Scotland a jury has 15 members.'"
+  },
+  {
+    "id": "q-5.5-004",
+    "subsectionId": "5.5-respecting-the-law",
+    "question": "In Scotland, what is the third possible verdict a jury can reach, alongside 'guilty' and 'not guilty'?",
+    "options": ["Not proven", "Pending", "Mitigated", "Conditional"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.5: 'In Scotland, a third verdict of 'not proven' is also possible.'"
+  },
+  {
+    "id": "q-5.6-001",
+    "subsectionId": "5.6-the-government",
+    "question": "Which minister in the cabinet is responsible for the economy?",
+    "options": ["The Chancellor of the Exchequer", "The Home Secretary", "The Foreign Secretary", "The Speaker"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.6: 'Chancellor of the Exchequer - responsible for the economy.'"
+  },
+  {
+    "id": "q-5.6-002",
+    "subsectionId": "5.6-the-government",
+    "question": "What weekly event in the House of Commons gives the Leader of the Opposition a chance to challenge the Prime Minister directly?",
+    "options": ["Prime Minister's Questions", "The State Opening of Parliament", "The Budget", "A byelection"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.6: 'One important opportunity to do this is at Prime Minister's Questions, which takes place every week while Parliament is sitting.'"
+  },
+  {
+    "id": "q-5.6-003",
+    "subsectionId": "5.6-the-government",
+    "question": "Since 1999, where has the Scottish Parliament sat?",
+    "options": ["Edinburgh", "Glasgow", "Stirling", "Aberdeen"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.6: 'The Scottish Parliament was formed in 1999. It sits in Edinburgh, the capital city of Scotland.'"
+  },
+  {
+    "id": "q-5.6-004",
+    "subsectionId": "5.6-the-government",
+    "question": "What name is given to elected members of the Northern Ireland Assembly?",
+    "options": ["MLAs (Members of the Legislative Assembly)", "MSPs", "MEPs", "AMs"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.6: 'The Assembly has 90 elected members, known as MLAs (members of the Legislative Assembly).'"
+  },
+  {
+    "id": "q-5.7-001",
+    "subsectionId": "5.7-uk-and-international-institutions",
+    "question": "Who is the ceremonial head of the Commonwealth?",
+    "options": ["The monarch (currently King Charles III)", "The UK Prime Minister", "The UN Secretary-General", "The President of the EU"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.7: 'The monarch (currently King Charles III) is the ceremonial head of the Commonwealth, which currently has 54 member states.'"
+  },
+  {
+    "id": "q-5.7-002",
+    "subsectionId": "5.7-uk-and-international-institutions",
+    "question": "At what time did Brexit officially take place, leaving the European Union?",
+    "options": ["23:00 GMT on 31 January 2020", "Midnight on 1 January 2021", "Noon on 25 March 1957", "23:00 GMT on 31 December 2019"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.7: 'The UK left the EU after the Brexit vote. Brexit officially took place at 23:00 GMT on 31 January 2020.'"
+  },
+  {
+    "id": "q-5.7-003",
+    "subsectionId": "5.7-uk-and-international-institutions",
+    "question": "The UK is one of how many permanent members of the UN Security Council?",
+    "options": ["Three", "Five", "Ten", "Fifteen"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "5.7: 'There are 15 members on the UN Security Council... The UK is one of five permanent members of the Security Council.'"
+  },
+  {
+    "id": "q-5.7-004",
+    "subsectionId": "5.7-uk-and-international-institutions",
+    "question": "What does NATO stand for?",
+    "options": [
+      "The North Atlantic Treaty Organization",
+      "The National Alliance for Trade and Order",
+      "The New Allied Territories Organization",
+      "The Northern Allied Trading Office"
+    ],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.7: 'The North Atlantic Treaty Organization (NATO)... is a group of European and North American countries that have agreed to help each other if they come under attack.'"
+  },
+  {
+    "id": "q-5.8-001",
+    "subsectionId": "5.8-your-role-in-the-community",
+    "question": "Anyone on the electoral register aged between which ages can be asked to serve on a jury?",
+    "options": ["16 to 65", "18 to 70", "21 to 75", "18 to 60"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "5.8: 'Anyone who is on the electoral register and is aged 18 to 70 can be asked to do this.'"
+  },
+  {
+    "id": "q-5.8-002",
+    "subsectionId": "5.8-your-role-in-the-community",
+    "question": "What is the term for working for good causes without payment, which helps you meet people and develop work skills?",
+    "options": ["Volunteering", "Canvassing", "Lobbying", "Conscription"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "5.8: 'Volunteering is working for good causes without payment. There are many benefits to volunteering.'"
+  },
+  {
+    "id": "q-5.8-003",
+    "subsectionId": "5.8-your-role-in-the-community",
+    "question": "Select TWO values and responsibilities shared by everyone in the UK, as listed in section 5.8.",
+    "options": ["To obey and respect the law", "To vote in local and national government elections", "To own a car", "To follow a particular religion"],
+    "correctAnswers": [0, 1],
+    "multiSelect": true,
+    "sourceFact": "5.8: 'to obey and respect the law... to vote in local and national government elections.'"
+  },
+  {
+    "id": "q-3.7-001",
+    "subsectionId": "3.7-early-britain",
+    "question": "What ancient monument, still standing in Wiltshire, was probably a gathering place for seasonal ceremonies in the Stone Age?",
+    "options": ["Hadrian's Wall", "Stonehenge", "Skara Brae", "Maiden Castle"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "3.7: 'One of these monuments, Stonehenge, still stands in what is now the English county of Wiltshire. Stonehenge was probably a special gathering place for seasonal ceremonies.'"
+  },
+  {
+    "id": "q-3.7-002",
+    "subsectionId": "3.7-early-britain",
+    "question": "Who led the Roman invasion of Britain in AD 43?",
+    "options": ["Julius Caesar", "Emperor Hadrian", "Emperor Claudius", "Boudicca"],
+    "correctAnswers": [2],
+    "multiSelect": false,
+    "sourceFact": "3.7: 'Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful... In AD 43 the Emperor Claudius led the Roman army in a new invasion.'"
+  },
+  {
+    "id": "q-3.7-003",
+    "subsectionId": "3.7-early-britain",
+    "question": "Boudicca was the queen of which tribe, who fought against the Romans?",
+    "options": ["The Picts", "The Iceni", "The Britons of Wales", "The Scots"],
+    "correctAnswers": [1],
+    "multiSelect": false,
+    "sourceFact": "3.7: 'One of the tribal leaders who fought against the Romans was Boudicca, the queen of the Iceni in what is now eastern England.'"
+  },
+  {
+    "id": "q-3.7-004",
+    "subsectionId": "3.7-early-britain",
+    "question": "Hadrian's Wall was built to keep out which group?",
+    "options": ["The Picts", "The Vikings", "The Normans", "The Anglo-Saxons"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.7: 'the Emperor Hadrian built a wall in the north of England to keep out the Picts (ancestors of the Scottish people).'"
+  },
+  {
+    "id": "q-3.7-005",
+    "subsectionId": "3.7-early-britain",
+    "question": "Which three peoples invaded Britain from northern Europe after the Romans left, giving modern English its basis?",
+    "options": ["The Jutes, the Angles and the Saxons", "The Picts, Scots and Britons", "The Normans, Danes and Vikings", "The Gauls, Franks and Goths"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.7: 'Britain was again invaded by tribes from northern Europe: the Jutes, the Angles and the Saxons. The languages they spoke are the basis of modern-day English.'"
+  },
+  {
+    "id": "q-3.7-006",
+    "subsectionId": "3.7-early-britain",
+    "question": "Who united the Anglo-Saxon kingdoms in England and defeated the Vikings?",
+    "options": ["King Alfred the Great", "King Cnut", "William the Conqueror", "Kenneth MacAlpin"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.7: 'The Anglo-Saxon kingdoms in England united under King Alfred the Great, who defeated the Vikings.'"
+  },
+  {
+    "id": "q-3.7-007",
+    "subsectionId": "3.7-early-britain",
+    "question": "In what year did the Norman Conquest take place?",
+    "options": ["1066", "1166", "966", "1215"],
+    "correctAnswers": [0],
+    "multiSelect": false,
+    "sourceFact": "3.7: 'In 1066, an invasion led by William, the Duke of Normandy... defeated Harold, the Saxon king of England, at the Battle of Hastings.'"
+  },
+  {
+    "id": "q-3.7-008",
+    "subsectionId": "3.7-early-britain",
+    "question": "What is the name of the survey William the Conqueror ordered, listing towns, villages, landowners and livestock across England?",
+    "options": ["The Magna Carta", "The Bayeux Tapestry", "The Domesday Book", "The Hundred Years roll"],
+    "correctAnswers": [2],
+    "multiSelect": false,
+    "sourceFact": "3.7: 'William sent people all over England to draw up lists of all the towns and villages... This was called the Domesday Book.'"
+  }
+]
