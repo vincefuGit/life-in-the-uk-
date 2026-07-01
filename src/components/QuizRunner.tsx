@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { getSessionId } from "@/lib/session";
 import { shuffle } from "@/lib/shuffle";
@@ -137,47 +138,73 @@ export default function QuizRunner({
 
         <div className="flex flex-col gap-4">
           <h3 className="font-semibold">Review</h3>
-          {results.map((r, idx) => (
-            <div
-              key={r.question.id}
-              className={`rounded-lg border p-4 ${
-                r.correct
-                  ? "border-green-600/30"
-                  : "border-red-600/40 bg-red-600/5"
-              }`}
-            >
-              <p className="font-medium">
-                {idx + 1}. {r.question.question}
-              </p>
-              <ul className="mt-2 flex flex-col gap-1 text-sm">
-                {r.question.options.map((opt, i) => {
-                  const isCorrect = r.question.correct_answers.includes(i);
-                  const wasSelected = r.selectedOriginalIndices.includes(i);
-                  return (
-                    <li
-                      key={i}
-                      className={
-                        isCorrect
-                          ? "text-green-700 dark:text-green-400 font-medium"
-                          : wasSelected
-                            ? "text-red-700 dark:text-red-400"
-                            : ""
-                      }
-                    >
-                      {isCorrect ? "✓ " : wasSelected ? "✗ " : "  "}
-                      {opt}
-                    </li>
-                  );
-                })}
-              </ul>
-              {r.question.source_fact && (
-                <p className="mt-2 text-xs text-black/60 dark:text-white/50">
-                  {r.question.source_fact}
+          {results.map((r, idx) => {
+            const correctAnswers = r.question.correct_answers.map(
+              (i) => r.question.options[i]
+            );
+            return (
+              <div
+                key={r.question.id}
+                className={`rounded-lg border p-4 ${
+                  r.correct
+                    ? "border-green-600/30"
+                    : "border-red-600/40 bg-red-600/5"
+                }`}
+              >
+                <p className="font-medium">
+                  {idx + 1}. {r.question.question}
                 </p>
-              )}
-            </div>
-          ))}
+                <ul className="mt-2 flex flex-col gap-1 text-sm">
+                  {r.question.options.map((opt, i) => {
+                    const isCorrect = r.question.correct_answers.includes(i);
+                    const wasSelected = r.selectedOriginalIndices.includes(i);
+                    return (
+                      <li
+                        key={i}
+                        className={
+                          isCorrect
+                            ? "text-green-700 dark:text-green-400 font-medium"
+                            : wasSelected
+                              ? "text-red-700 dark:text-red-400"
+                              : ""
+                        }
+                      >
+                        {isCorrect ? "✓ " : wasSelected ? "✗ " : "  "}
+                        {opt}
+                      </li>
+                    );
+                  })}
+                </ul>
+                {r.correct ? (
+                  r.question.source_fact && (
+                    <p className="mt-2 text-xs text-black/60 dark:text-white/50">
+                      {r.question.source_fact}
+                    </p>
+                  )
+                ) : (
+                  <div className="mt-3 rounded-md border border-amber-500/40 bg-amber-500/10 p-3 text-sm">
+                    <p className="font-medium text-amber-800 dark:text-amber-300">
+                      Correct answer{correctAnswers.length > 1 ? "s" : ""}:{" "}
+                      {correctAnswers.join(", ")}
+                    </p>
+                    {r.question.source_fact && (
+                      <p className="mt-1 text-black/70 dark:text-white/70">
+                        {r.question.source_fact}
+                      </p>
+                    )}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
+
+        <Link
+          href="/"
+          className="self-start rounded-md bg-blue-600 text-white px-6 py-3 text-center"
+        >
+          Back to home
+        </Link>
       </div>
     );
   }
