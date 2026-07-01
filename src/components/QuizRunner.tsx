@@ -26,6 +26,23 @@ function shuffleQuestion(question: Question): ShuffledQuestion {
   return { question, options };
 }
 
+// Highlights the right answer(s) plus the contextual source fact. Shown whenever
+// an answer was wrong -- both instantly after checking and in the end review.
+function CorrectAnswerNote({ question }: { question: Question }) {
+  const correctAnswers = question.correct_answers.map((i) => question.options[i]);
+  return (
+    <div className="mt-3 rounded-md border border-amber-500/40 bg-amber-500/10 p-3 text-sm">
+      <p className="font-medium text-amber-800 dark:text-amber-300">
+        Correct answer{correctAnswers.length > 1 ? "s" : ""}:{" "}
+        {correctAnswers.join(", ")}
+      </p>
+      {question.source_fact && (
+        <p className="mt-1 text-black/70 dark:text-white/70">{question.source_fact}</p>
+      )}
+    </div>
+  );
+}
+
 export default function QuizRunner({
   questions,
   timeLimitSeconds,
@@ -39,6 +56,7 @@ export default function QuizRunner({
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState<number[]>([]);
+  const [revealed, setRevealed] = useState(false);
   const [results, setResults] = useState<
     { question: Question; selectedOriginalIndices: number[]; correct: boolean }[]
   >([]);
@@ -64,6 +82,7 @@ export default function QuizRunner({
   }, [secondsLeft, finished]);
 
   function toggleOption(originalIndex: number) {
+    if (revealed) return;
     if (current.question.multi_select) {
       setSelected((prev) =>
         prev.includes(originalIndex)
@@ -83,7 +102,7 @@ export default function QuizRunner({
     return true;
   }
 
-  async function submitAnswer() {
+  function checkAnswer() {
     const correct = isCorrectSelection(current.question, selected);
     setResults((prev) => [
       ...prev,
@@ -105,6 +124,11 @@ export default function QuizRunner({
         if (error) console.error("Failed to record attempt:", error);
       });
 
+    setRevealed(true);
+  }
+
+  function goNext() {
+    setRevealed(false);
     setSelected([]);
     if (currentIndex + 1 >= shuffledQuestions.length) {
       finishQuiz();
@@ -139,9 +163,6 @@ export default function QuizRunner({
         <div className="flex flex-col gap-4">
           <h3 className="font-semibold">Review</h3>
           {results.map((r, idx) => {
-            const correctAnswers = r.question.correct_answers.map(
-              (i) => r.question.options[i]
-            );
             return (
               <div
                 key={r.question.id}
@@ -182,17 +203,7 @@ export default function QuizRunner({
                     </p>
                   )
                 ) : (
-                  <div className="mt-3 rounded-md border border-amber-500/40 bg-amber-500/10 p-3 text-sm">
-                    <p className="font-medium text-amber-800 dark:text-amber-300">
-                      Correct answer{correctAnswers.length > 1 ? "s" : ""}:{" "}
-                      {correctAnswers.join(", ")}
-                    </p>
-                    {r.question.source_fact && (
-                      <p className="mt-1 text-black/70 dark:text-white/70">
-                        {r.question.source_fact}
-                      </p>
-                    )}
-                  </div>
+                  <CorrectAnswerNote question={r.question} />
                 )}
               </div>
             );
@@ -237,29 +248,71 @@ export default function QuizRunner({
         <div className="mt-4 flex flex-col gap-2">
           {current.options.map(({ text, originalIndex }) => {
             const isSelected = selected.includes(originalIndex);
+            const isCorrect =
+              current.question.correct_answers.includes(originalIndex);
+            let optionClass: string;
+            if (revealed) {
+              if (isCorrect) {
+                optionClass =
+                  "border-green-600 bg-green-600/10 text-green-800 dark:text-green-300";
+              } else if (isSelected) {
+                optionClass =
+                  "border-red-600 bg-red-600/10 text-red-700 dark:text-red-400";
+              } else {
+                optionClass = "border-black/15 dark:border-white/20 opacity-60";
+              }
+            } else if (isSelected) {
+              optionClass = "border-blue-600 bg-blue-600/10";
+            } else {
+              optionClass =
+                "border-black/15 dark:border-white/20 hover:border-black/30 dark:hover:border-white/40";
+            }
             return (
               <button
                 key={originalIndex}
                 onClick={() => toggleOption(originalIndex)}
-                className={`text-left rounded-md border px-4 py-2 transition-colors ${
-                  isSelected
-                    ? "border-blue-600 bg-blue-600/10"
-                    : "border-black/15 dark:border-white/20 hover:border-black/30 dark:hover:border-white/40"
-                }`}
+                disabled={revealed}
+                className={`text-left rounded-md border px-4 py-2 transition-colors ${optionClass}`}
               >
+                {revealed && isCorrect ? "✓ " : revealed && isSelected ? "✗ " : ""}
                 {text}
               </button>
             );
           })}
         </div>
 
-        <button
-          onClick={submitAnswer}
-          disabled={selected.length === 0}
-          className="mt-6 rounded-md bg-blue-600 text-white px-4 py-2 disabled:opacity-40"
-        >
-          {currentIndex + 1 >= shuffledQuestions.length ? "Finish" : "Next"}
-        </button>
+        {revealed &&
+          (isCorrectSelection(current.question, selected) ? (
+            <div className="mt-4 rounded-md border border-green-600/40 bg-green-600/10 p-3 text-sm">
+              <p className="font-medium text-green-700 dark:text-green-400">
+                Correct ✓
+              </p>
+              {current.question.source_fact && (
+                <p className="mt-1 text-black/70 dark:text-white/70">
+                  {current.question.source_fact}
+                </p>
+              )}
+            </div>
+          ) : (
+            <CorrectAnswerNote question={current.question} />
+          ))}
+
+        {revealed ? (
+          <button
+            onClick={goNext}
+            className="mt-6 rounded-md bg-blue-600 text-white px-4 py-2"
+          >
+            {currentIndex + 1 >= shuffledQuestions.length ? "Finish" : "Next"}
+          </button>
+        ) : (
+          <button
+            onClick={checkAnswer}
+            disabled={selected.length === 0}
+            className="mt-6 rounded-md bg-blue-600 text-white px-4 py-2 disabled:opacity-40"
+          >
+            Check answer
+          </button>
+        )}
       </div>
     </div>
   );
