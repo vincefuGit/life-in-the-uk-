@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { supabase } from "@/lib/supabase";
-import { getSessionId } from "@/lib/session";
+import { useAuth } from "@/lib/auth";
 import { shuffle } from "@/lib/shuffle";
 import type { Question } from "@/lib/types";
 
@@ -31,6 +32,8 @@ export default function QuizRunner({
   passThreshold,
   onFinish,
 }: Props) {
+  const { user } = useAuth();
+
   const shuffledQuestions = useMemo(
     () => shuffle(questions).map(shuffleQuestion),
     [questions]
@@ -89,20 +92,23 @@ export default function QuizRunner({
       { question: current.question, selectedOriginalIndices: selected, correct },
     ]);
 
-    const sessionId = getSessionId();
-    // supabase-js query builders are lazy "thenables" -- the request is only sent
-    // once .then()/await runs, so this must be chained (not just constructed) to fire.
-    supabase
-      .from("attempts")
-      .insert({
-        session_id: sessionId,
-        question_id: current.question.id,
-        subsection_id: current.question.subsection_id,
-        correct,
-      })
-      .then(({ error }) => {
-        if (error) console.error("Failed to record attempt:", error);
-      });
+    // Only signed-in answers are recorded, keyed to the account so progress
+    // syncs across devices. Signed-out practice still works, it just isn't saved.
+    if (user) {
+      // supabase-js query builders are lazy "thenables" -- the request is only sent
+      // once .then()/await runs, so this must be chained (not just constructed) to fire.
+      supabase
+        .from("attempts")
+        .insert({
+          user_id: user.id,
+          question_id: current.question.id,
+          subsection_id: current.question.subsection_id,
+          correct,
+        })
+        .then(({ error }) => {
+          if (error) console.error("Failed to record attempt:", error);
+        });
+    }
 
     setSelected([]);
     if (currentIndex + 1 >= shuffledQuestions.length) {
@@ -188,6 +194,15 @@ export default function QuizRunner({
 
   return (
     <div className="flex flex-col gap-6 max-w-2xl w-full">
+      {!user && (
+        <p className="rounded-md border border-yellow-600/30 bg-yellow-600/10 px-4 py-2 text-sm text-yellow-800 dark:text-yellow-300">
+          You&apos;re not signed in, so this session won&apos;t be saved.{" "}
+          <Link href="/login" className="underline font-medium">
+            Sign in
+          </Link>{" "}
+          to track your progress across devices.
+        </p>
+      )}
       <div className="flex items-center justify-between text-sm text-black/60 dark:text-white/50">
         <span>
           Question {currentIndex + 1} of {shuffledQuestions.length}

@@ -15,7 +15,18 @@ function getSupabaseClient(): SupabaseClient {
         "Missing NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_ANON_KEY"
       );
     }
-    client = createClient(supabaseUrl, supabaseAnonKey);
+    client = createClient(supabaseUrl, supabaseAnonKey, {
+      auth: {
+        // Progress is tied to a real auth user (magic-link email login) so it
+        // syncs across devices. persist + auto-refresh keep the session alive
+        // between visits; we exchange the emailed code ourselves in
+        // /auth/callback, so URL auto-detection is turned off to avoid races.
+        persistSession: true,
+        autoRefreshToken: true,
+        detectSessionInUrl: false,
+        flowType: "pkce",
+      },
+    });
   }
   return client;
 }

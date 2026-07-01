@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
-import { getSessionId } from "@/lib/session";
+import { useAuth } from "@/lib/auth";
 import type { Attempt, Subsection } from "@/lib/types";
 
 type SubsectionStats = {
@@ -14,17 +14,20 @@ type SubsectionStats = {
 };
 
 export default function ProgressPage() {
+  const { user, loading: authLoading } = useAuth();
   const [stats, setStats] = useState<SubsectionStats[] | null>(null);
   const [totalAttempts, setTotalAttempts] = useState(0);
 
   useEffect(() => {
+    if (!user) {
+      setStats(null);
+      return;
+    }
     async function loadProgress() {
-      const sessionId = getSessionId();
       const [{ data: attempts }, { data: subsections }] = await Promise.all([
         supabase
           .from("attempts")
           .select("*")
-          .eq("session_id", sessionId)
           .order("created_at", { ascending: false }),
         supabase.from("subsections").select("*"),
       ]);
@@ -60,7 +63,7 @@ export default function ProgressPage() {
       setStats(rows);
     }
     loadProgress();
-  }, []);
+  }, [user]);
 
   return (
     <main className="flex-1 flex flex-col items-center gap-6 p-8">
@@ -69,17 +72,32 @@ export default function ProgressPage() {
         ← Back home
       </Link>
 
-      {stats === null ? (
+      {authLoading ? (
+        <p>Loading…</p>
+      ) : !user ? (
+        <div className="flex flex-col items-center gap-4 text-center">
+          <p className="text-black/60 dark:text-white/50 max-w-sm">
+            Sign in to see your progress. It syncs across every device you sign in
+            on with the same email.
+          </p>
+          <Link
+            href="/login"
+            className="rounded-md bg-blue-600 text-white px-4 py-2"
+          >
+            Sign in
+          </Link>
+        </div>
+      ) : stats === null ? (
         <p>Loading…</p>
       ) : stats.length === 0 ? (
         <p className="text-black/60 dark:text-white/50">
-          No attempts yet on this device — take a practice session or mock test first.
+          No attempts yet — take a practice session or mock test first.
         </p>
       ) : (
         <div className="w-full max-w-2xl flex flex-col gap-4">
           <p className="text-sm text-black/60 dark:text-white/50">
-            {totalAttempts} questions answered on this device, across{" "}
-            {stats.length} topic{stats.length === 1 ? "" : "s"}. Weakest topics first.
+            {totalAttempts} questions answered across {stats.length} topic
+            {stats.length === 1 ? "" : "s"}. Weakest topics first.
           </p>
           <div className="flex flex-col gap-2">
             {stats.map((s) => {

@@ -19,13 +19,17 @@ create table if not exists questions (
 
 create table if not exists attempts (
   id uuid primary key default gen_random_uuid(),
-  session_id text not null,
+  -- Owned by an auth user so progress follows the account across devices.
+  -- session_id is a legacy/pre-login device marker, kept only for migration.
+  user_id uuid references auth.users(id) on delete cascade,
+  session_id text,
   question_id text not null references questions(id),
   subsection_id text not null references subsections(id),
   correct boolean not null,
   created_at timestamptz not null default now()
 );
 
+create index if not exists attempts_user_id_idx on attempts(user_id);
 create index if not exists attempts_session_id_idx on attempts(session_id);
 create index if not exists questions_subsection_id_idx on questions(subsection_id);
 
@@ -39,8 +43,25 @@ create policy "subsections_select_anon" on subsections for select to anon using 
 drop policy if exists "questions_select_anon" on questions;
 create policy "questions_select_anon" on questions for select to anon using (true);
 
+-- Attempts are private to the signed-in user who created them.
 drop policy if exists "attempts_select_anon" on attempts;
-create policy "attempts_select_anon" on attempts for select to anon using (true);
-
 drop policy if exists "attempts_insert_anon" on attempts;
-create policy "attempts_insert_anon" on attempts for insert to anon with check (true);
+
+drop policy if exists "attempts_select_own" on attempts;
+create policy "attempts_select_own" on attempts
+  for select to authenticated
+  using (auth.uid() = user_id);
+
+drop policy if exists "attempts_insert_own" on attempts;
+create policy "attempts_insert_own" on attempts
+  for insert to authenticated
+  with check (auth.uid() = user_id);
+
+-- One-time migration aid: lets a signed-in user adopt still-unowned rows
+-- (their pre-login, device-local history). Only ever touches unowned rows and
+-- only to set the owner to the caller; inert once all rows are claimed.
+drop policy if exists "attempts_claim_orphans" on attempts;
+create policy "attempts_claim_orphans" on attempts
+  for update to authenticated
+  using (user_id is null)
+  with check (auth.uid() = user_id);
