@@ -19,7 +19,8 @@ export type Question = {
 
 export type Attempt = {
   id: string;
-  session_id: string;
+  user_id: string | null;
+  session_id: string | null;
   question_id: string;
   subsection_id: string;
   correct: boolean;
