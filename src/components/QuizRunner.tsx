@@ -67,21 +67,19 @@ export default function QuizRunner({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState<number[]>([]);
   const [revealed, setRevealed] = useState(false);
-  const [results, setResults] = useState<
-    { question: Question; selectedOriginalIndices: number[]; correct: boolean }[]
-  >([]);
+  const [results, setResults] = useState<AnswerResult[]>([]);
   const [finished, setFinished] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(timeLimitSeconds ?? null);
 
   const current = shuffledQuestions[currentIndex];
 
-  // Takes the results explicitly because the final answer isn't in the
-  // `results` state yet when the last submit calls this (setState is async).
-  // The timer-expiry path uses the default; unanswered questions count as wrong.
-  function finishQuiz(finalResults: AnswerResult[] = results) {
+  // By the time this runs the last answer is already committed to `results`:
+  // answers are stored in checkAnswer, and finishing only happens on the later
+  // Finish click or timer expiry. Unanswered questions count as wrong.
+  function finishQuiz() {
     setFinished(true);
     onFinish?.({
-      correct: finalResults.filter((r) => r.correct).length,
+      correct: results.filter((r) => r.correct).length,
       total: questions.length,
     });
   }
@@ -151,7 +149,7 @@ export default function QuizRunner({
     setRevealed(false);
     setSelected([]);
     if (currentIndex + 1 >= shuffledQuestions.length) {
-      finishQuiz(nextResults);
+      finishQuiz();
     } else {
       setCurrentIndex((i) => i + 1);
     }
