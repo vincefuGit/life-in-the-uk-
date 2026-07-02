@@ -37,11 +37,17 @@ alter table subsections enable row level security;
 alter table questions enable row level security;
 alter table attempts enable row level security;
 
+-- Public reference data: readable by both anonymous and signed-in users.
+-- (Scoping these `to anon` alone would hide them from authenticated users.)
 drop policy if exists "subsections_select_anon" on subsections;
-create policy "subsections_select_anon" on subsections for select to anon using (true);
+drop policy if exists "subsections_select_all" on subsections;
+create policy "subsections_select_all" on subsections
+  for select to anon, authenticated using (true);
 
 drop policy if exists "questions_select_anon" on questions;
-create policy "questions_select_anon" on questions for select to anon using (true);
+drop policy if exists "questions_select_all" on questions;
+create policy "questions_select_all" on questions
+  for select to anon, authenticated using (true);
 
 -- Attempts are private to the signed-in user who created them.
 drop policy if exists "attempts_select_anon" on attempts;
