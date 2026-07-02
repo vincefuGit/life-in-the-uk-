@@ -71,6 +71,31 @@ create policy "attempts_claim_orphans" on attempts
   for update to authenticated
   using (user_id is null)
   with check (auth.uid() = user_id);
+
+-- One row per completed test sitting. Gates the weakest-topics test unlock
+-- (the client counts kind='mock' rows for the signed-in user).
+create table if not exists mock_tests (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  kind text not null default 'mock' check (kind in ('mock', 'weak')),
+  correct int not null,
+  total int not null,
+  created_at timestamptz not null default now()
+);
+
+create index if not exists mock_tests_user_id_idx on mock_tests(user_id);
+
+alter table mock_tests enable row level security;
+
+drop policy if exists "mock_tests_select_own" on mock_tests;
+create policy "mock_tests_select_own" on mock_tests
+  for select to authenticated
+  using (auth.uid() = user_id);
+
+drop policy if exists "mock_tests_insert_own" on mock_tests;
+create policy "mock_tests_insert_own" on mock_tests
+  for insert to authenticated
+  with check (auth.uid() = user_id);
 begin;
 delete from attempts;
 delete from questions;

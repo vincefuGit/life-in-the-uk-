@@ -12,11 +12,19 @@ type ShuffledQuestion = {
   options: { text: string; originalIndex: number }[];
 };
 
+export type QuizSummary = { correct: number; total: number };
+
+type AnswerResult = {
+  question: Question;
+  selectedOriginalIndices: number[];
+  correct: boolean;
+};
+
 type Props = {
   questions: Question[];
   timeLimitSeconds?: number;
   passThreshold?: number;
-  onFinish?: () => void;
+  onFinish?: (summary: QuizSummary) => void;
 };
 
 function shuffleQuestion(question: Question): ShuffledQuestion {
@@ -41,17 +49,21 @@ export default function QuizRunner({
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState<number[]>([]);
-  const [results, setResults] = useState<
-    { question: Question; selectedOriginalIndices: number[]; correct: boolean }[]
-  >([]);
+  const [results, setResults] = useState<AnswerResult[]>([]);
   const [finished, setFinished] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(timeLimitSeconds ?? null);
 
   const current = shuffledQuestions[currentIndex];
 
-  function finishQuiz() {
+  // Takes the results explicitly because the final answer isn't in the
+  // `results` state yet when the last submit calls this (setState is async).
+  // The timer-expiry path uses the default; unanswered questions count as wrong.
+  function finishQuiz(finalResults: AnswerResult[] = results) {
     setFinished(true);
-    onFinish?.();
+    onFinish?.({
+      correct: finalResults.filter((r) => r.correct).length,
+      total: questions.length,
+    });
   }
 
   useEffect(() => {
@@ -87,10 +99,11 @@ export default function QuizRunner({
 
   async function submitAnswer() {
     const correct = isCorrectSelection(current.question, selected);
-    setResults((prev) => [
-      ...prev,
+    const nextResults = [
+      ...results,
       { question: current.question, selectedOriginalIndices: selected, correct },
-    ]);
+    ];
+    setResults(nextResults);
 
     // Only signed-in answers are recorded, keyed to the account so progress
     // syncs across devices. Signed-out practice still works, it just isn't saved.
@@ -112,7 +125,7 @@ export default function QuizRunner({
 
     setSelected([]);
     if (currentIndex + 1 >= shuffledQuestions.length) {
-      finishQuiz();
+      finishQuiz(nextResults);
     } else {
       setCurrentIndex((i) => i + 1);
     }

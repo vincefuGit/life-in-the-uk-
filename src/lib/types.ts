@@ -26,3 +26,12 @@ export type Attempt = {
   correct: boolean;
   created_at: string;
 };
+
+export type MockTest = {
+  id: string;
+  user_id: string;
+  kind: "mock" | "weak";
+  correct: number;
+  total: number;
+  created_at: string;
+};
