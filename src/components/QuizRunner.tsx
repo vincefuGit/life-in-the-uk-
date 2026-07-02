@@ -12,11 +12,19 @@ type ShuffledQuestion = {
   options: { text: string; originalIndex: number }[];
 };
 
+export type QuizSummary = { correct: number; total: number };
+
+type AnswerResult = {
+  question: Question;
+  selectedOriginalIndices: number[];
+  correct: boolean;
+};
+
 type Props = {
   questions: Question[];
   timeLimitSeconds?: number;
   passThreshold?: number;
-  onFinish?: () => void;
+  onFinish?: (summary: QuizSummary) => void;
 };
 
 function shuffleQuestion(question: Question): ShuffledQuestion {
@@ -59,17 +67,21 @@ export default function QuizRunner({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState<number[]>([]);
   const [revealed, setRevealed] = useState(false);
-  const [results, setResults] = useState<
-    { question: Question; selectedOriginalIndices: number[]; correct: boolean }[]
-  >([]);
+  const [results, setResults] = useState<AnswerResult[]>([]);
   const [finished, setFinished] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(timeLimitSeconds ?? null);
 
   const current = shuffledQuestions[currentIndex];
 
+  // By the time this runs the last answer is already committed to `results`:
+  // answers are stored in checkAnswer, and finishing only happens on the later
+  // Finish click or timer expiry. Unanswered questions count as wrong.
   function finishQuiz() {
     setFinished(true);
-    onFinish?.();
+    onFinish?.({
+      correct: results.filter((r) => r.correct).length,
+      total: questions.length,
+    });
   }
 
   useEffect(() => {
@@ -106,10 +118,11 @@ export default function QuizRunner({
 
   function checkAnswer() {
     const correct = isCorrectSelection(current.question, selected);
-    setResults((prev) => [
-      ...prev,
+    const nextResults = [
+      ...results,
       { question: current.question, selectedOriginalIndices: selected, correct },
-    ]);
+    ];
+    setResults(nextResults);
 
     // Only signed-in answers are recorded, keyed to the account so progress
     // syncs across devices. Signed-out practice still works, it just isn't saved.
