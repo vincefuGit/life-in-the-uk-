@@ -14,7 +14,10 @@ create table if not exists questions (
   options jsonb not null,
   correct_answers jsonb not null,
   multi_select boolean not null default false,
-  source_fact text
+  source_fact text,
+  -- 1 easy / 2 medium / 3 hard; default keeps older clients working while
+  -- rows without an explicit tag are treated as medium.
+  difficulty int not null default 2 check (difficulty between 1 and 3)
 );
 
 create table if not exists attempts (
