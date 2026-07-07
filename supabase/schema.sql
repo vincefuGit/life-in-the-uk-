@@ -20,6 +20,12 @@ create table if not exists questions (
   difficulty int not null default 2 check (difficulty between 1 and 3)
 );
 
+-- Migration for databases created before the difficulty column existed
+-- (create table if not exists above is a no-op for them).
+alter table questions
+  add column if not exists difficulty int not null default 2
+  check (difficulty between 1 and 3);
+
 create table if not exists attempts (
   id uuid primary key default gen_random_uuid(),
   -- Owned by an auth user so progress follows the account across devices.
