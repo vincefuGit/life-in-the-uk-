@@ -6,6 +6,12 @@ import { supabase } from "@/lib/supabase";
 import { useAuth } from "@/lib/auth";
 import type { Attempt, Question } from "@/lib/types";
 import { sample } from "@/lib/shuffle";
+import {
+  describeSelection,
+  selectMockQuestions,
+  RECENT_SEEN_WINDOW,
+  type RecentAttempt,
+} from "@/lib/adaptive";
 import QuizRunner, { type QuizSummary } from "@/components/QuizRunner";
 
 const TEST_QUESTION_COUNT = 24;
@@ -60,6 +66,7 @@ export default function TestPage() {
   const { user, loading: authLoading } = useAuth();
   const [kind, setKind] = useState<TestKind | null>(null);
   const [questions, setQuestions] = useState<Question[] | null>(null);
+  const [calibrationNote, setCalibrationNote] = useState<string | undefined>();
   const [mockTestCount, setMockTestCount] = useState<number | null>(null);
 
   useEffect(() => {
@@ -78,9 +85,25 @@ export default function TestPage() {
     setKind(nextKind);
     if (nextKind === "mock") {
       // Every question is already tied to a quizzable subsection (see data/questions.json),
-      // so the full table is the sampling pool.
-      const { data } = await supabase.from("questions").select("*");
-      setQuestions(sample(data ?? [], TEST_QUESTION_COUNT));
+      // so the full table is the sampling pool. The difficulty mix adapts to the
+      // signed-in user's recent accuracy; signed-out users get the standard mix.
+      const [{ data }, { data: recent }] = await Promise.all([
+        supabase.from("questions").select("*"),
+        user
+          ? supabase
+              .from("attempts")
+              .select("question_id, correct")
+              .order("created_at", { ascending: false })
+              .limit(RECENT_SEEN_WINDOW)
+          : Promise.resolve({ data: [] as RecentAttempt[] }),
+      ]);
+      const selection = selectMockQuestions(
+        data ?? [],
+        recent ?? [],
+        TEST_QUESTION_COUNT
+      );
+      setCalibrationNote(describeSelection(selection));
+      setQuestions(selection.questions);
     } else {
       // RLS already scopes attempts to the signed-in user.
       const [{ data: attempts }, { data: allQuestions }] = await Promise.all([
@@ -126,6 +149,7 @@ export default function TestPage() {
           questions={questions}
           timeLimitSeconds={TEST_TIME_LIMIT_SECONDS}
           passThreshold={PASS_THRESHOLD}
+          calibrationNote={kind === "mock" ? calibrationNote : undefined}
           onFinish={recordTestResult}
         />
       </main>
@@ -144,7 +168,8 @@ export default function TestPage() {
       <p className="max-w-md text-black/60 dark:text-white/50">
         {TEST_QUESTION_COUNT} questions, randomly drawn from every topic, with a
         45-minute timer — just like the real test. You need {Math.round(PASS_THRESHOLD * 100)}%
-        to pass. No two tests are the same.
+        to pass. No two tests are the same, and the difficulty mix adapts to
+        your recent results.
       </p>
       <button
         onClick={() => startTest("mock")}

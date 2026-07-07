@@ -24,6 +24,9 @@ type Props = {
   questions: Question[];
   timeLimitSeconds?: number;
   passThreshold?: number;
+  // One-line note about how this test was put together (e.g. the adaptive
+  // difficulty mix), shown on the results screen.
+  calibrationNote?: string;
   onFinish?: (summary: QuizSummary) => void;
 };
 
@@ -55,6 +58,7 @@ export default function QuizRunner({
   questions,
   timeLimitSeconds,
   passThreshold,
+  calibrationNote,
   onFinish,
 }: Props) {
   const { user } = useAuth();
@@ -174,6 +178,11 @@ export default function QuizRunner({
               }`}
             >
               {passed ? "Pass" : "Fail"} (threshold: {Math.round(passThreshold! * 100)}%)
+            </p>
+          )}
+          {calibrationNote && (
+            <p className="mt-2 text-sm text-black/60 dark:text-white/50">
+              {calibrationNote}
             </p>
           )}
         </div>
