@@ -82,8 +82,11 @@ export function selectMockQuestions(
 
   const drawTier = (tier: Difficulty, wanted: number): number => {
     if (wanted <= 0) return 0;
+    // `?? 2` guards against rows fetched from a database that hasn't been
+    // migrated yet (no difficulty column): they count as medium instead of
+    // silently matching no tier and producing an empty test.
     const candidates = allQuestions.filter(
-      (q) => q.difficulty === tier && !pickedIds.has(q.id)
+      (q) => (q.difficulty ?? 2) === tier && !pickedIds.has(q.id)
     );
     const fresh = interleaveByChapter(candidates.filter((q) => !seenRank.has(q.id)));
     const stale = candidates
