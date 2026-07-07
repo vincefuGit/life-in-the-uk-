@@ -7,6 +7,10 @@ export type Subsection = {
   quizzable: boolean;
 };
 
+// 1 = easy (headline facts), 2 = medium (secondary facts),
+// 3 = hard (niche exam-trap material: exact dates, counts, minor figures).
+export type Difficulty = 1 | 2 | 3;
+
 export type Question = {
   id: string;
   subsection_id: string;
@@ -15,6 +19,7 @@ export type Question = {
   correct_answers: number[];
   multi_select: boolean;
   source_fact: string | null;
+  difficulty: Difficulty;
 };
 
 export type Attempt = {
