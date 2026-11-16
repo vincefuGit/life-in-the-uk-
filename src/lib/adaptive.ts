@@ -123,3 +123,41 @@ export function describeSelection(selection: MockSelection): string {
   const pct = Math.round(selection.accuracy * 100);
   return `Calibrated to your recent accuracy (${pct}%) — ${selection.label}: ${mix}`;
 }
+
+// Most questions a "drill my misses" session will contain.
+export const MISSED_DRILL_LIMIT = 24;
+
+// Questions the user keeps getting wrong: the latest answer was wrong, or they
+// have been missed at least twice and in at least half of their answers.
+// Attempts must be newest first. Questions whose latest answer was wrong come
+// first, then the most-missed; capped so a session stays a manageable size.
+export function selectMissedQuestions(
+  allQuestions: Question[],
+  attempts: RecentAttempt[],
+  limit = MISSED_DRILL_LIMIT
+): Question[] {
+  const stats = new Map<string, { seen: number; wrong: number; lastWrong: boolean }>();
+  for (const a of attempts) {
+    const s = stats.get(a.question_id);
+    if (s) {
+      s.seen += 1;
+      if (!a.correct) s.wrong += 1;
+    } else {
+      // First occurrence is the most recent answer.
+      stats.set(a.question_id, { seen: 1, wrong: a.correct ? 0 : 1, lastWrong: !a.correct });
+    }
+  }
+
+  return allQuestions
+    .filter((q) => {
+      const s = stats.get(q.id);
+      return s !== undefined && (s.lastWrong || (s.wrong >= 2 && s.wrong / s.seen >= 0.5));
+    })
+    .sort((a, b) => {
+      const sa = stats.get(a.id)!;
+      const sb = stats.get(b.id)!;
+      if (sa.lastWrong !== sb.lastWrong) return sa.lastWrong ? -1 : 1;
+      return sb.wrong - sa.wrong || sb.wrong / sb.seen - sa.wrong / sa.seen;
+    })
+    .slice(0, limit);
+}

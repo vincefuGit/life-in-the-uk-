@@ -13,7 +13,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "1.4: 'The test consists of 24 questions about important aspects of life in the UK.'",
+    "sourceFact": "1.4: 'The Life in the UK test consists of 24 questions about important aspects of life in the UK. Questions are based on ALL parts of the handbook, and the 24 questions will be different for each person taking the test at that test session.'",
     "difficulty": 1
   },
   {
@@ -30,7 +30,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "1.2: 'The questions are written in a way that requires an understanding of the English language at ESOL Entry Level 3.'",
+    "sourceFact": "1.2: 'The questions are written in a way that requires an understanding of the English language at ESOL (English for Speakers of Other Languages) Entry Level 3. If your standard of English is below ESOL Entry Level 3, you will need to take an ESOL course in English with Citizenship instead.'",
     "difficulty": 2
   },
   {
@@ -47,7 +47,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "1.2: 'Produce acceptable evidence of speaking and listening skills in English at B1 of the Common European Framework of Reference. This is equivalent to ESOL Entry Level 3.'",
+    "sourceFact": "1.2: 'From October 2013, the requirement is to: pass the Life in the UK test AND produce acceptable evidence of speaking and listening skills in English at B1 of the Common European Framework of Reference. This is equivalent to ESOL Entry Level 3.'",
     "difficulty": 3
   },
   {
@@ -65,7 +65,7 @@
       2
     ],
     "multiSelect": true,
-    "sourceFact": "1.2: 'To apply to become a permanent resident or citizen of the UK, you will need to: speak and read English; have a good understanding of life in the UK.'",
+    "sourceFact": "1.2: 'To apply to become a permanent resident or citizen of the UK, you will need to: speak and read English; have a good understanding of life in the UK. This handbook will help prepare you for taking the Life in the UK test, and passing it is one part of demonstrating that understanding.'",
     "difficulty": 3
   },
   {
@@ -82,7 +82,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "1.2: 'Pass an ESOL course in English with Citizenship. You will need to take this course if your standard of English is below ESOL Entry Level 3.'",
+    "sourceFact": "1.2: 'The alternative to the Life in the UK test is to pass an ESOL course in English with Citizenship. You will need to take this course if your standard of English is below ESOL Entry Level 3.'",
     "difficulty": 2
   },
   {
@@ -99,7 +99,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "1.2: 'To apply to become a permanent resident or citizen of the UK, you will need to: speak and read English; have a good understanding of life in the UK.'",
+    "sourceFact": "1.2: 'To apply to become a permanent resident or citizen of the UK, you will need to: speak and read English; have a good understanding of life in the UK. Passing the Life in the UK test demonstrates that understanding when you apply for permanent residence or citizenship.'",
     "difficulty": 1
   },
   {
@@ -151,7 +151,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "1.3: 'The fundamental principles of British life include: Democracy, The rule of law, Individual liberty, Tolerance of those with different faiths and beliefs, Participation in community life.'",
+    "sourceFact": "1.3: 'British society is founded on fundamental values and principles which all those living in the UK should respect and support. The fundamental principles of British life include: Democracy, The rule of law, Individual liberty, Tolerance of those with different faiths and beliefs, Participation in community life.'",
     "difficulty": 1
   },
   {
@@ -169,7 +169,7 @@
       2
     ],
     "multiSelect": true,
-    "sourceFact": "1.3: 'In return, the UK offers: freedom of belief and religion, freedom of speech, freedom from unfair discrimination, a right to a fair trial, a right to join in the election of a government.'",
+    "sourceFact": "1.3: 'If you wish to live permanently in the UK, you should respect and obey the law and take part in community life. In return, the UK offers: freedom of belief and religion; freedom of speech; freedom from unfair discrimination; a right to a fair trial; a right to join in the election of a government.'",
     "difficulty": 3
   },
   {
@@ -186,7 +186,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "1.3: 'I will give my loyalty to the United Kingdom and respect its rights and freedoms. I will uphold its democratic values. I will observe its laws faithfully and fulfil my duties and obligations as a British citizen.'",
+    "sourceFact": "1.3: 'To be a British citizen or settled in the UK you must pledge: I will give my loyalty to the United Kingdom and respect its rights and freedoms. I will uphold its democratic values. I will observe its laws faithfully and fulfil my duties and obligations as a British citizen. This pledge forms part of the citizenship ceremony.'",
     "difficulty": 2
   },
   {
@@ -203,7 +203,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "1.3: 'There is no place in British society for extremism or intolerance.'",
+    "sourceFact": "1.3: 'Although Britain is one of the world's most diverse societies, there is a set of shared values and responsibilities that everyone can agree with. There is no place in British society for extremism or intolerance.'",
     "difficulty": 1
   },
   {
@@ -289,7 +289,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "1.4: 'The Life in the UK test is usually taken in English, although special arrangements can be made if you wish to take it in Welsh or Scottish Gaelic.'",
+    "sourceFact": "1.4: 'The Life in the UK test is usually taken in English, although special arrangements can be made if you wish to take it in Welsh or Scottish Gaelic. You can take the test in England, Scotland, Wales and Northern Ireland.'",
     "difficulty": 2
   },
   {
@@ -304,7 +304,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "1.4: 'You should not take your test at any other establishment as the UK Border Agency will only accept certificates from registered test centres.'",
+    "sourceFact": "1.4: 'You can only take the test at a registered and approved Life in the UK test centre. You should not take your test at any other establishment as the UK Border Agency will only accept certificates from registered test centres.'",
     "difficulty": 2
   },
   {
@@ -321,7 +321,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "1.4: 'You can only take the test at a registered and approved Life in the UK test centre... There are about 60 test centres around the UK.'",
+    "sourceFact": "1.4: 'You can only take the test at a registered and approved Life in the UK test centre. There are about 60 test centres around the UK, and you can only book your test online.'",
     "difficulty": 3
   },
   {
@@ -355,7 +355,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "1.4: 'The 24 questions will be based on the whole book, including this introduction.'",
+    "sourceFact": "Introduction: 'The 24 questions will be based on the whole book, including this introduction. Questions are based on ALL parts of the handbook, and the questions will be different for each person taking the test at that test session.'",
     "difficulty": 1
   },
   {
@@ -372,7 +372,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "1.4: 'You can only take the test at a registered and approved Life in the UK test centre. There are about 60 test centres around the UK.'",
+    "sourceFact": "1.4: 'You can only take the test at a registered and approved Life in the UK test centre. There are about 60 test centres around the UK. You should not take your test at any other establishment as only certificates from registered centres are accepted.'",
     "difficulty": 1
   },
   {
@@ -389,7 +389,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "1.4: 'You can only book your test online, at www.lifeintheuktest.gov.uk.'",
+    "sourceFact": "1.4: 'You can only book your test online, at www.lifeintheuktest.gov.uk. There are about 60 registered and approved test centres around the UK, and the test cannot be taken anywhere else.'",
     "difficulty": 3
   },
   {
@@ -423,7 +423,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "2.2: 'The UK is made up of England, Scotland, Wales and Northern Ireland. The rest of Ireland is an independent country.'",
+    "sourceFact": "2.2: 'The UK is made up of England, Scotland, Wales and Northern Ireland. The rest of Ireland is an independent country. The official name of the country is the United Kingdom of Great Britain and Northern Ireland.'",
     "difficulty": 1
   },
   {
@@ -440,7 +440,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "2.2: 'Great Britain' refers only to England, Scotland and Wales, not to Northern Ireland.'",
+    "sourceFact": "2.2: ''Great Britain' refers only to England, Scotland and Wales, not to Northern Ireland. The words 'Britain', 'British Isles' or 'British', however, are used in this book to refer to everyone in the UK.'",
     "difficulty": 1
   },
   {
@@ -458,7 +458,7 @@
       1
     ],
     "multiSelect": true,
-    "sourceFact": "2.2: 'There are also several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man. These have their own governments and are called 'Crown dependencies'.'",
+    "sourceFact": "2.2: 'There are also several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man. These have their own governments and are called 'Crown dependencies'. There are also several British overseas territories, such as St Helena and the Falkland Islands, which are also linked to the UK but not part of it.'",
     "difficulty": 3
   },
   {
@@ -475,7 +475,7 @@
       2
     ],
     "multiSelect": false,
-    "sourceFact": "2.2: 'The UK is governed by the parliament sitting in Westminster.'",
+    "sourceFact": "2.2: 'The UK is governed by the parliament sitting in Westminster. Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas.'",
     "difficulty": 1
   },
   {
@@ -492,7 +492,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "2.2: 'There are also several British overseas territories in other parts of the world, such as St Helena and the Falkland Islands. They are also linked to the UK but are not a part of it.'",
+    "sourceFact": "2.2: 'There are also several British overseas territories in other parts of the world, such as St Helena and the Falkland Islands. They are also linked to the UK but are not a part of it. The Channel Islands and the Isle of Man, meanwhile, are 'Crown dependencies' with their own governments.'",
     "difficulty": 2
   },
   {
@@ -594,7 +594,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "2.2: ''Great Britain' refers only to England, Scotland and Wales, not to Northern Ireland.'",
+    "sourceFact": "2.2: 'The official name of the country is the United Kingdom of Great Britain and Northern Ireland. 'Great Britain' refers only to England, Scotland and Wales, not to Northern Ireland — so Northern Ireland is part of the UK, but not part of Great Britain.'",
     "difficulty": 3
   },
   {
@@ -609,7 +609,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "2.2: 'There are also several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man.'",
+    "sourceFact": "2.2: 'There are also several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man. These have their own governments and are called 'Crown dependencies'.'",
     "difficulty": 3
   },
   {
@@ -644,7 +644,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "3.2: 'In 1945 the British people elected a Labour government. The new Prime Minister was Clement Atlee, who promised to introduce the welfare state outlined in the Beveridge Report.'",
+    "sourceFact": "3.2: 'In 1945 the British people elected a Labour government. The new Prime Minister was Clement Attlee, who promised to introduce the welfare state outlined in the Beveridge Report. In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS).'",
     "difficulty": 2
   },
   {
@@ -661,7 +661,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.2: 'In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS).'",
+    "sourceFact": "3.2: 'In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS), which guaranteed a minimum standard of health care for all, free at the point of use. A national system of benefits was also introduced to provide social security, so that the population would be protected from the cradle to the grave.'",
     "difficulty": 2
   },
   {
@@ -678,7 +678,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.2: 'William Beveridge... is best known for the 1942 report Social Insurance and Allied Services (known as the Beveridge Report)... provided the basis of the modern welfare state.'",
+    "sourceFact": "3.2: 'William Beveridge (later Lord Beveridge) was a British economist and social reformer. He is best known for the 1942 report Social Insurance and Allied Services (known as the Beveridge Report), which was commissioned by the wartime government and provided the basis of the modern welfare state.'",
     "difficulty": 2
   },
   {
@@ -712,7 +712,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.2: 'The jet engine was developed in Britain in the 1930s by Sir Frank Whittle.'",
+    "sourceFact": "3.2: 'Britain has been a world leader in aviation and engineering. The jet engine was developed in Britain in the 1930s by Sir Frank Whittle, a British Royal Air Force engineer officer, and the hovercraft was invented by Sir Christopher Cockerell in the 1950s.'",
     "difficulty": 2
   },
   {
@@ -729,7 +729,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.2: 'In 1996, two British scientists, Sir Ian Wilmot and Keith Campbell, led a team which was the first to succeed in cloning a mammal, Dolly the sheep.'",
+    "sourceFact": "3.2: 'In 1996, two British scientists, Sir Ian Wilmot and Keith Campbell, led a team which was the first to succeed in cloning a mammal, Dolly the sheep. This has led to further research into the possible use of cloning to preserve endangered species and in the field of medicine.'",
     "difficulty": 3
   },
   {
@@ -746,7 +746,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.2: 'Following the Conservative victory in the General Election in 1979, Margaret Thatcher became the first woman Prime Minister of the UK.'",
+    "sourceFact": "3.2: 'Following the Conservative victory in the General Election in 1979, Margaret Thatcher became the first woman Prime Minister of the UK. She was the longest-serving Prime Minister of the 20th century, remaining in office until 1990. Her government made structural changes to the economy, including the privatisation of nationalised industries.'",
     "difficulty": 1
   },
   {
@@ -763,7 +763,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "3.2: 'West Germany, France, Belgium, Italy, Luxembourg and the Netherlands formed the European Economic Community (EEC) in 1957... it eventually did so in 1973.'",
+    "sourceFact": "3.2: 'West Germany, France, Belgium, Italy, Luxembourg and the Netherlands formed the European Economic Community (EEC) in 1957. At first the UK did not wish to join the EEC, but it eventually did so in 1973.'",
     "difficulty": 2
   },
   {
@@ -882,7 +882,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.2: 'The hovercraft was invented by Sir Christopher Cockerell, a British inventor, in the 1950s.'",
+    "sourceFact": "3.2: 'Britain has been a world leader in engineering and invention. The hovercraft was invented by Sir Christopher Cockerell, a British inventor, in the 1950s, in the same era in which Britain and France developed Concorde, the world's only supersonic passenger aircraft.'",
     "difficulty": 3
   },
   {
@@ -985,7 +985,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.3: 'The Bill of Rights, 1689, confirmed the rights of Parliament and the limits of the king's power.'",
+    "sourceFact": "3.3: 'At the coronation of William and Mary, a Declaration of Rights was read. This confirmed that the king would no longer be able to raise taxes or administer justice without agreement from Parliament. The Bill of Rights, 1689, confirmed the rights of Parliament and the limits of the king's power.'",
     "difficulty": 2
   },
   {
@@ -1002,7 +1002,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "3.3: 'The Act of Union, known as the Treaty of Union in Scotland, was therefore agreed in 1707, creating the Kingdom of Great Britain.'",
+    "sourceFact": "3.3: 'The Act of Union, known as the Treaty of Union in Scotland, was therefore agreed in 1707, creating the Kingdom of Great Britain. Although Scotland was no longer an independent country, it kept its own legal and education systems and Presbyterian Church.'",
     "difficulty": 2
   },
   {
@@ -1019,7 +1019,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.3: 'The most important minister in Parliament became known as the Prime Minister. The first man to be called this was Sir Robert Walpole, who was Prime Minister from 1721 to 1742.'",
+    "sourceFact": "3.3: 'When George I became king, he did not speak very good English, and this increased the need for the king to have advisers. The most important minister in Parliament became known as the Prime Minister. The first man to be called this was Sir Robert Walpole, who was Prime Minister from 1721 to 1742.'",
     "difficulty": 2
   },
   {
@@ -1036,7 +1036,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.3: 'Charles initially had some successes but was defeated by George II's army at the Battle of Culloden in 1746.'",
+    "sourceFact": "3.3: 'In 1745 there was another attempt to put a Stuart king back on the throne. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland and was supported by clansmen from the Scottish highlands. Charles initially had some successes but was defeated by George II's army at the Battle of Culloden in 1746, and he escaped back to Europe.'",
     "difficulty": 3
   },
   {
@@ -1053,7 +1053,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.3: 'In 1807, it became illegal to trade slaves in British ships or from British ports, and in 1833 the Emancipation Act abolished slavery throughout the British Empire.'",
+    "sourceFact": "3.3: 'The Quakers set up the first formal anti-slavery groups in the late 1700s and petitioned Parliament to ban the practice. In 1807, it became illegal to trade slaves in British ships or from British ports, and in 1833 the Emancipation Act abolished slavery throughout the British Empire.'",
     "difficulty": 3
   },
   {
@@ -1070,7 +1070,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.3: 'The cross of St George, patron saint of England... The cross of St Andrew, patron saint of Scotland... The cross of St Patrick, patron saint of Ireland.'",
+    "sourceFact": "3.3: 'One symbol of the union between England, Scotland, Wales and Ireland is the flag of the United Kingdom, the Union Flag, often called the Union Jack. It combines: the cross of St George, patron saint of England; the cross of St Andrew, patron saint of Scotland; and the cross of St Patrick, patron saint of Ireland. The Welsh dragon does not appear on the flag because, when the first Union Flag was created, Wales was already united with England.'",
     "difficulty": 2
   },
   {
@@ -1087,7 +1087,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.3: 'In 1837, Queen Victoria became queen of the UK at the age of 18. She reigned until 1901, almost 64 years.'",
+    "sourceFact": "3.3: 'In 1837, Queen Victoria became queen of the UK at the age of 18. She reigned until 1901, almost 64 years. During the Victorian Age, the British Empire grew to cover all of India, Australia and large parts of Africa, and became the largest empire the world has ever seen.'",
     "difficulty": 2
   },
   {
@@ -1104,7 +1104,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.3: 'Florence Nightingale... is often regarded as the founder of modern nursing.'",
+    "sourceFact": "3.3: 'Florence Nightingale was born in Italy to English parents. In 1854 she went to Turkey and worked in military hospitals, treating soldiers who were fighting in the Crimean War. She and her fellow nurses improved the conditions in the hospital and reduced the mortality rate, and she is often regarded as the founder of modern nursing.'",
     "difficulty": 1
   },
   {
@@ -1326,7 +1326,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.4: 'On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War.'",
+    "sourceFact": "3.4: 'On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914-18). The conflict was centred in Europe, but it was a global war involving nations from around the world, with British Empire soldiers fighting alongside Britain.'",
     "difficulty": 2
   },
   {
@@ -1343,7 +1343,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.4: 'The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies.'",
+    "sourceFact": "3.4: 'Millions of people were killed or wounded in the First World War, with more than 2 million British casualties. The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies. That is why Remembrance Day is marked at 11.00 am on 11 November each year.'",
     "difficulty": 3
   },
   {
@@ -1360,7 +1360,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.4: 'In 1921 a peace treaty was signed and in 1922 Ireland became two countries. The six counties in the north which were mainly Protestant remained part of the UK under the name Northern Ireland.'",
+    "sourceFact": "3.4: 'In 1921 a peace treaty was signed and in 1922 Ireland became two countries. The six counties in the north which were mainly Protestant remained part of the UK under the name Northern Ireland. The rest of Ireland became the Irish Free State, which was self-governing and later became a republic.'",
     "difficulty": 2
   },
   {
@@ -1377,7 +1377,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.4: 'At this time of national crisis, Winston Churchill became Prime Minister and Britain's war leader.'",
+    "sourceFact": "3.4: 'At this time of national crisis, Winston Churchill became Prime Minister and Britain's war leader. He refused to surrender to the Nazis and was an inspirational leader to the British people in a time of great hardship. In 2002 he was voted the greatest Briton of all time by the public.'",
     "difficulty": 1
   },
   {
@@ -1394,7 +1394,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.4: 'civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk.'",
+    "sourceFact": "3.4: 'As France fell to Germany, the British decided to evacuate British and French soldiers from France in a huge naval operation. Many civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk. The evacuation gave rise to the phrase 'the Dunkirk spirit'.'",
     "difficulty": 1
   },
   {
@@ -1411,7 +1411,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.4: 'On 6 June 1944, allied forces landed in Normandy (this event is often referred to as 'D-Day').'",
+    "sourceFact": "3.4: 'On 6 June 1944, allied forces landed in Normandy (this event is often referred to as 'D-Day'). Following victory on the beaches of Normandy, the allied forces pressed on through France and eventually into Germany. The Allies comprehensively defeated Germany in May 1945.'",
     "difficulty": 2
   },
   {
@@ -1428,7 +1428,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.4: 'Born in Scotland, Fleming moved to London... when he discovered penicillin... Fleming won the Nobel Prize in Medicine in 1945.'",
+    "sourceFact": "3.4: 'Born in Scotland, Alexander Fleming moved to London as a teenager and later qualified as a doctor. In 1928, when he was researching influenza, Fleming discovered penicillin by chance. His discovery led to the development of antibiotics, and he won the Nobel Prize in Medicine in 1945.'",
     "difficulty": 1
   },
   {
@@ -1565,7 +1565,7 @@
       2
     ],
     "multiSelect": false,
-    "sourceFact": "3.4: 'The British attack on the Somme in July 1916 resulted in about 60,000 British casualties on the first day alone.'",
+    "sourceFact": "3.4: 'Millions of people were killed or wounded in the First World War, with more than 2 million British casualties. One battle, the British attack on the Somme in July 1916, resulted in about 60,000 British casualties on the first day alone.'",
     "difficulty": 3
   },
   {
@@ -1667,7 +1667,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.5: 'In that year King John was forced by his noblemen to agree to a number of demands. The result was a charter of rights called the Magna Carta.'",
+    "sourceFact": "3.5: 'In 1215, King John was forced by his noblemen to agree to a number of demands. The result was a charter of rights called the Magna Carta (which means the Great Charter). The Magna Carta established the idea that even the king was subject to the law. It protected the rights of the nobility and restricted the king's power to collect taxes or to make or change laws.'",
     "difficulty": 1
   },
   {
@@ -1684,7 +1684,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.5: 'In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death. One third of the population of England died.'",
+    "sourceFact": "3.5: 'In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death. One third of the population of England died, and a similar proportion in Scotland and Wales. This was one of the worst disasters ever to strike Britain, and the smaller population that followed changed English society.'",
     "difficulty": 1
   },
   {
@@ -1701,7 +1701,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.5: 'In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English.'",
+    "sourceFact": "3.5: 'The English kings also fought with the Scottish. In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English throughout the Middle Ages.'",
     "difficulty": 2
   },
   {
@@ -1718,7 +1718,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.5: 'Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage... This collection of poems is called The Canterbury Tales.'",
+    "sourceFact": "3.5: 'In the years leading up to 1400, Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. The people decided to tell each other stories on the journey, and the poems describe the travellers and some of the stories they told. This collection of poems is called The Canterbury Tales, and it was one of the first books to be printed in England.'",
     "difficulty": 1
   },
   {
@@ -1735,7 +1735,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.5: 'The war ended with the Battle of Bosworth Field in 1485. King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII.'",
+    "sourceFact": "3.5: 'The Wars of the Roses ended with the Battle of Bosworth Field in 1485. King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII. Henry then married King Richard III's niece, Elizabeth of York, uniting the two families, and became the first king of the House of Tudor.'",
     "difficulty": 3
   },
   {
@@ -1752,7 +1752,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.5: 'One of the most famous battles of the Hundred Years War was the Battle of Agincourt in 1415, where King Henry V's vastly outnumbered army defeated the French.'",
+    "sourceFact": "3.5: 'During the Middle Ages, England fought a long war with France, called the Hundred Years War (even though it actually lasted 116 years). One of the most famous battles was the Battle of Agincourt in 1415, where King Henry V's vastly outnumbered army defeated the French. The English left France in the 1450s.'",
     "difficulty": 2
   },
   {
@@ -1923,7 +1923,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.5: 'By 1200, the English ruled an area of Ireland known as the Pale, around Dublin.'",
+    "sourceFact": "3.5: 'At the beginning of the Middle Ages, Ireland was an independent country. The English first went to Ireland as troops to help the Irish king and remained to build their own settlements. By 1200, the English ruled an area of Ireland known as the Pale, around Dublin, while some of the important lords in other parts of Ireland accepted the authority of the English king.'",
     "difficulty": 3
   },
   {
@@ -2008,7 +2008,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.6: 'Henry VIII was most famous for breaking away from the Church of Rome and marrying six times.'",
+    "sourceFact": "3.6: 'Henry VIII was most famous for breaking away from the Church of Rome and marrying six times. To divorce his first wife, Henry needed the approval of the Pope. When the Pope refused, Henry established the Church of England, in which the king, not the Pope, would have the power to appoint bishops and order how people should worship.'",
     "difficulty": 1
   },
   {
@@ -2025,7 +2025,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.6: 'particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England.'",
+    "sourceFact": "3.6: 'Elizabeth I became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism.'",
     "difficulty": 1
   },
   {
@@ -2042,7 +2042,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.6: 'Shakespeare was born in Stratford-upon-Avon, England. He was a playwright and actor and wrote many poems and plays. His most famous plays include A Midsummer Night's Dream, Hamlet, Macbeth and Romeo and Juliet.'",
+    "sourceFact": "3.6: 'William Shakespeare (1564-1616) was born in Stratford-upon-Avon, England. He was a playwright and actor and wrote many poems and plays. His most famous plays include A Midsummer Night's Dream, Hamlet, Macbeth and Romeo and Juliet. He had a great influence on the English language and invented many words that are still common today.'",
     "difficulty": 1
   },
   {
@@ -2059,7 +2059,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.6: 'One achievement of King James' reign was a new translation of the Bible into English. This translation is known as the 'King James Version' or the 'Authorised Version'.'",
+    "sourceFact": "3.6: 'One achievement of King James' reign was a new translation of the Bible into English. This translation is known as the 'King James Version' or the 'Authorised Version'. It was not the first English Bible but is a version which continues to be used in many Protestant churches today.'",
     "difficulty": 2
   },
   {
@@ -2076,7 +2076,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.6: 'Civil war between the king and Parliament could not now be avoided and began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).'",
+    "sourceFact": "3.6: 'Charles I wanted the worship of the Church of England to include more ceremony, while many in Parliament were Puritans who opposed this. Civil war between the king and Parliament could not be avoided and began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).'",
     "difficulty": 2
   },
   {
@@ -2093,7 +2093,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.6: 'One of its generals, Oliver Cromwell, was sent to Ireland... After his campaign in Ireland and victory over Charles II at Worcester, Cromwell was recognised as the leader of the new republic. He was given the title of Lord Protector.'",
+    "sourceFact": "3.6: 'The parliamentary army, led by one of its generals, Oliver Cromwell, defeated the king's forces. After his campaign in Ireland and victory over Charles II at the Battle of Worcester, Cromwell was recognised as the leader of the new republic. He was given the title of Lord Protector and ruled until his death in 1658.'",
     "difficulty": 2
   },
   {
@@ -2110,7 +2110,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.6: 'William ruled jointly with Mary. This event was later called the 'Glorious Revolution' because there was no fighting in England and it guaranteed the power of Parliament.'",
+    "sourceFact": "3.6: 'In 1688, important Protestants in England asked William of Orange, the husband of James II's daughter Mary, to invade England and proclaim himself king. When William reached England there was no resistance. William ruled jointly with Mary. This event was later called the 'Glorious Revolution' because there was no fighting in England and it guaranteed the power of Parliament, ending the threat of a monarch ruling on his or her own as he or she wished.'",
     "difficulty": 2
   },
   {
@@ -2349,7 +2349,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "3.7: 'One of these monuments, Stonehenge, still stands in what is now the English county of Wiltshire. Stonehenge was probably a special gathering place for seasonal ceremonies.'",
+    "sourceFact": "3.7: 'The first farmers built houses, tombs and monuments on the land. One of these monuments, Stonehenge, still stands in what is now the English county of Wiltshire. Stonehenge was probably a special gathering place for seasonal ceremonies.'",
     "difficulty": 1
   },
   {
@@ -2366,7 +2366,7 @@
       2
     ],
     "multiSelect": false,
-    "sourceFact": "3.7: 'Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful... In AD 43 the Emperor Claudius led the Roman army in a new invasion.'",
+    "sourceFact": "3.7: 'Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful, and for nearly 100 years Britain remained separate from the Roman Empire. In AD 43 the Emperor Claudius led the Roman army in a new invasion. This time, there was resistance from some of the British tribes but the Romans were successful in occupying almost all of Britain.'",
     "difficulty": 2
   },
   {
@@ -2383,7 +2383,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "3.7: 'One of the tribal leaders who fought against the Romans was Boudicca, the queen of the Iceni in what is now eastern England.'",
+    "sourceFact": "3.7: 'One of the tribal leaders who fought against the Romans was Boudicca, the queen of the Iceni in what is now eastern England. She is still remembered today, and there is a statue of her on Westminster Bridge in London, near the Houses of Parliament.'",
     "difficulty": 2
   },
   {
@@ -2400,7 +2400,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.7: 'the Emperor Hadrian built a wall in the north of England to keep out the Picts (ancestors of the Scottish people).'",
+    "sourceFact": "3.7: 'Areas of what is now Scotland were never conquered by the Romans, and the Emperor Hadrian built a wall in the north of England to keep out the Picts (ancestors of the Scottish people). Parts of Hadrian's Wall, including the forts of Housesteads and Vindolanda, can still be seen, and it is a UNESCO World Heritage Site.'",
     "difficulty": 2
   },
   {
@@ -2417,7 +2417,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.7: 'Britain was again invaded by tribes from northern Europe: the Jutes, the Angles and the Saxons. The languages they spoke are the basis of modern-day English.'",
+    "sourceFact": "3.7: 'After the Roman army left, Britain was again invaded by tribes from northern Europe: the Jutes, the Angles and the Saxons. The languages they spoke are the basis of modern-day English. Battles were fought against these invaders but, by about AD 600, Anglo-Saxon kingdoms were established in Britain.'",
     "difficulty": 2
   },
   {
@@ -2434,7 +2434,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.7: 'The Anglo-Saxon kingdoms in England united under King Alfred the Great, who defeated the Vikings.'",
+    "sourceFact": "3.7: 'The Anglo-Saxon kingdoms in England united under King Alfred the Great, who defeated the Vikings. Many of the Viking invaders stayed in Britain, especially in the east and north of England, in an area known as the Danelaw.'",
     "difficulty": 2
   },
   {
@@ -2451,7 +2451,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.7: 'In 1066, an invasion led by William, the Duke of Normandy... defeated Harold, the Saxon king of England, at the Battle of Hastings.'",
+    "sourceFact": "3.7: 'In 1066, an invasion led by William, the Duke of Normandy (in what is now northern France), defeated Harold, the Saxon king of England, at the Battle of Hastings. Harold was killed in the battle. William became king of England and is known as William the Conqueror. The battle is commemorated in a great piece of embroidery, known as the Bayeux Tapestry.'",
     "difficulty": 1
   },
   {
@@ -2468,7 +2468,7 @@
       2
     ],
     "multiSelect": false,
-    "sourceFact": "3.7: 'William sent people all over England to draw up lists of all the towns and villages... This was called the Domesday Book.'",
+    "sourceFact": "3.7: 'William sent people all over England to draw up lists of all the towns and villages. The people who lived there, who owned the land and what animals they owned were also listed. This was called the Domesday Book. It still exists today and gives a picture of society in England just after the Norman Conquest.'",
     "difficulty": 2
   },
   {
@@ -2519,7 +2519,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.7: 'The Roman army left Britain in AD 410 to defend other parts of the Roman Empire and never returned.'",
+    "sourceFact": "3.7: 'The Romans remained in Britain for 400 years. They built roads and public buildings, created a structure of law, and introduced new plants and animals. The Roman army left Britain in AD 410 to defend other parts of the Roman Empire and never returned.'",
     "difficulty": 2
   },
   {
@@ -2638,7 +2638,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "3.7: 'In 1016, Cnut, also called Canute, a Danish king, conquered England and became its king.'",
+    "sourceFact": "3.7: 'The Viking invaders stayed in Britain, especially in the east and north of England. In 1016, Cnut, also called Canute, a Danish king, conquered England and became its king.'",
     "difficulty": 3
   },
   {
@@ -2690,7 +2690,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.2: 'The German-born composer George Frederick Handel (1695-1759) spent many years in the UK and became a British citizen in 1727. He wrote the Water Music for King George I and Music for the Royal Fireworks.'",
+    "sourceFact": "4.2: 'The German-born composer George Frederick Handel (1695-1759) spent many years in the UK and became a British citizen in 1727. He wrote the Water Music for King George I and Music for the Royal Fireworks for his son, George II. Handel also wrote the Messiah, which is sung regularly by choirs, often at Easter time.'",
     "difficulty": 2
   },
   {
@@ -2707,7 +2707,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.2: 'Jane Austen (1775-1817) was an English novelist. Her books include Pride and Prejudice and Sense and Sensibility.'",
+    "sourceFact": "4.2: 'Jane Austen (1775-1817) was an English novelist. Her books include Pride and Prejudice and Sense and Sensibility. Her novels are concerned with marriage and family relationships, and many have been made into television programmes and films.'",
     "difficulty": 1
   },
   {
@@ -2724,7 +2724,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.2: 'J K Rowling (1965-) wrote the Harry Potter series of children's books, which have enjoyed huge international success.'",
+    "sourceFact": "4.2: 'J K Rowling (1965-) wrote the Harry Potter series of children's books, which have enjoyed huge international success. She now writes fiction for adults as well.'",
     "difficulty": 1
   },
   {
@@ -2741,7 +2741,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.2: 'The Mousetrap, a murder-mystery play by Dame Agatha Christie, has been running in the West End since 1952 and has had the longest initial run of any show in history.'",
+    "sourceFact": "4.2: 'London's West End, also known as 'Theatreland', is particularly well known for its theatres. The Mousetrap, a murder-mystery play by Dame Agatha Christie, has been running in the West End since 1952 and has had the longest initial run of any show in history.'",
     "difficulty": 2
   },
   {
@@ -2758,7 +2758,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.2: 'The Turner Prize was established in 1984 and celebrates contemporary art. It was named after Joseph Turner.'",
+    "sourceFact": "4.2: 'The Turner Prize was established in 1984 and celebrates contemporary art. It was named after Joseph Turner. Four works are shortlisted every year and shown at Tate Britain before the winner is announced. The Turner Prize is recognised as one of the most prestigious visual art awards in Europe.'",
     "difficulty": 3
   },
   {
@@ -2946,7 +2946,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.3: 'Boxing Day is the day after Christmas Day and is a public holiday.'",
+    "sourceFact": "4.3: 'Christmas is celebrated in a traditional way: people usually spend the day at home and eat a special meal, which often includes roast turkey, Christmas pudding and mince pies. Boxing Day is the day after Christmas Day and is a public holiday.'",
     "difficulty": 1
   },
   {
@@ -2963,7 +2963,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.3: 'Diwali normally falls in October or November and lasts for five days. It is often called the Festival of Lights. It is celebrated by Hindus and Sikhs.'",
+    "sourceFact": "4.3: 'Diwali normally falls in October or November and lasts for five days. It is often called the Festival of Lights. It is celebrated by Hindus and Sikhs. It celebrates the victory of good over evil and the gaining of knowledge. There is a famous celebration of Diwali in Leicester.'",
     "difficulty": 1
   },
   {
@@ -2980,7 +2980,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.3: 'Bonfire Night, 5 November... The origin of this celebration was an event in 1605, when a group of Catholics led by Guy Fawkes failed in their plan to kill the Protestant king with a bomb in the Houses of Parliament.'",
+    "sourceFact": "4.3: 'Bonfire Night, 5 November, is an occasion when people in Great Britain set off fireworks at home or in special displays. The origin of this celebration was an event in 1605, when a group of Catholics led by Guy Fawkes failed in their plan to kill the Protestant king with a bomb in the Houses of Parliament.'",
     "difficulty": 1
   },
   {
@@ -2997,7 +2997,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.3: 'Vaisakhi (also spelled Baisakhi) is a Sikh festival which celebrates the founding of the Sikh community known as the Khalsa. It is celebrated on 14 April each year.'",
+    "sourceFact": "4.3: 'Vaisakhi (also spelled Baisakhi) is a Sikh festival which celebrates the founding of the Sikh community known as the Khalsa. It is celebrated on 14 April each year with parades, dancing and singing.'",
     "difficulty": 3
   },
   {
@@ -3201,7 +3201,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.4: 'Scotland: Haggis - a sheep's stomach stuffed with offal, suet, onions and oatmeal.'",
+    "sourceFact": "4.4: 'Some traditional foods are associated with different parts of the UK. In England, roast beef is served with Yorkshire puddings; Wales is known for Welsh cakes; in Scotland, haggis is a sheep's stomach stuffed with offal, suet, onions and oatmeal; and in Northern Ireland, the Ulster fry is a traditional fried meal.'",
     "difficulty": 1
   },
   {
@@ -3218,7 +3218,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "4.4: 'To buy alcohol in a pub or night club you must be 18 or over.'",
+    "sourceFact": "4.4: 'To buy alcohol in a pub or night club you must be 18 or over, but people under that age may be allowed into some pubs with an adult. When they are 16, people can drink wine or beer with a meal in a hotel or restaurant, as long as they are with someone over 18.'",
     "difficulty": 1
   },
   {
@@ -3235,7 +3235,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.4: 'Everyone in the UK with a TV, computer or other medium which can be used for watching TV must have a television licence... You will receive a fine of up to £1,000 if you watch TV but do not have a TV licence.'",
+    "sourceFact": "4.4: 'Everyone in the UK with a TV, computer or other medium which can be used for watching TV must have a television licence. One licence covers all of the equipment in one home. People over 75 can apply for a free TV licence, and blind people can get a 50% discount. You will receive a fine of up to £1,000 if you watch TV but do not have a TV licence.'",
     "difficulty": 2
   },
   {
@@ -3252,7 +3252,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.4: 'Sir Charles (Charlie) Chaplin became famous in silent movies for his tramp character.'",
+    "sourceFact": "4.4: 'From the early days of the cinema, British actors have worked in both the UK and USA. Sir Charles (Charlie) Chaplin became famous in silent movies for his tramp character and was one of many British actors to make a career in Hollywood.'",
     "difficulty": 2
   },
   {
@@ -3457,7 +3457,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.4: 'You have to be 18 to go into betting shops or gambling clubs.'",
+    "sourceFact": "4.4: 'In the UK, people often enjoy a gamble on sports or other events. There are also casinos in many places. You have to be 18 to go into betting shops or gambling clubs. There is a National Lottery for which draws are made every week.'",
     "difficulty": 3
   },
   {
@@ -3474,7 +3474,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "4.5: 'There are 15 national parks in England, Wales and Scotland.'",
+    "sourceFact": "4.5: 'The UK has a large network of public footpaths in the countryside, and there are many opportunities for mountain biking, mountaineering and hill walking. There are 15 national parks in England, Wales and Scotland. They are areas of protected countryside that everyone can visit, and where people live, work and look after the landscape.'",
     "difficulty": 3
   },
   {
@@ -3491,7 +3491,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.5: 'Big Ben is the nickname for the great bell of the clock at the Houses of Parliament in London... The clock tower is named 'Elizabeth Tower' in honour of Queen Elizabeth II's Diamond Jubilee in 2012.'",
+    "sourceFact": "4.5: 'Big Ben is the nickname for the great bell of the clock at the Houses of Parliament in London. Many people call the clock Big Ben as well. The clock is over 150 years old and is a popular tourist attraction. The clock tower is named 'Elizabeth Tower' in honour of Queen Elizabeth II's Diamond Jubilee in 2012.'",
     "difficulty": 1
   },
   {
@@ -3508,7 +3508,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.5: 'Located on the north-east coast of Northern Ireland, the Giant's Causeway is a land formation of columns made from volcanic lava.'",
+    "sourceFact": "4.5: 'Located on the north-east coast of Northern Ireland, the Giant's Causeway is a land formation of columns made from volcanic lava. It was formed about 50 million years ago. There are many legends about the Causeway, and it is a story-telling theme in Northern Ireland.'",
     "difficulty": 1
   },
   {
@@ -3525,7 +3525,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.5: 'Many parts of the countryside and places of interest are kept open by the National Trust in England, Wales and Northern Ireland... The National Trust was founded in 1895 by three volunteers.'",
+    "sourceFact": "4.5: 'Many parts of the countryside and places of interest are kept open by the National Trust in England, Wales and Northern Ireland, and the National Trust for Scotland. Both are charities that work to preserve important buildings, coastline and countryside in the UK. The National Trust was founded in 1895 by three volunteers, and there are now more than 61,000 volunteers helping to keep the organisation running.'",
     "difficulty": 3
   },
   {
@@ -3729,7 +3729,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.6: 'The monarch is the head of the Church of England. The spiritual leader of the Church of England is the Archbishop of Canterbury.'",
+    "sourceFact": "4.6: 'The Church of England is the official Church of the state in England. The monarch is the head of the Church of England, while its spiritual leader is the Archbishop of Canterbury. The monarch has the right to select the Archbishop and other senior church officials, but usually the choice is made by the Prime Minister and a committee appointed by the Church.'",
     "difficulty": 1
   },
   {
@@ -3746,7 +3746,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.6: 'In Scotland, the national Church is the Church of Scotland, which is a Presbyterian Church.'",
+    "sourceFact": "4.6: 'In Scotland, the national Church is the Church of Scotland, which is a Presbyterian Church. It is governed by ministers and elders. The chairperson of the General Assembly of the Church of Scotland is the Moderator, who is appointed for one year only and often speaks on behalf of that Church.'",
     "difficulty": 2
   },
   {
@@ -3763,7 +3763,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.6: '23 April: St George's Day, England.'",
+    "sourceFact": "4.6: 'England, Scotland, Wales and Northern Ireland each have a national saint, called a patron saint, and each saint has a special day: 1 March, St David's Day, Wales; 17 March, St Patrick's Day, Northern Ireland; 23 April, St George's Day, England; 30 November, St Andrew's Day, Scotland.'",
     "difficulty": 3
   },
   {
@@ -3780,7 +3780,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "4.6: 'In the 2009 Citizenship Survey, 70% of people identified themselves as Christian.'",
+    "sourceFact": "4.6: 'In the 2009 Citizenship Survey, 70% of people identified themselves as Christian. Much smaller proportions identified themselves as Muslim (4%), Hindu (2%), Sikh (1%), Jewish or Buddhist (both less than 0.5%), and 2% of people followed another religion. Everyone has the legal right to choose their religion, or to choose not to practise a religion.'",
     "difficulty": 3
   },
   {
@@ -3932,7 +3932,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.6: '1 March: St David's Day, Wales.'",
+    "sourceFact": "4.6: 'England, Scotland, Wales and Northern Ireland each have a national saint, called a patron saint, and each saint has a special day: 1 March, St David's Day, Wales; 17 March, St Patrick's Day, Northern Ireland; 23 April, St George's Day, England; 30 November, St Andrew's Day, Scotland.'",
     "difficulty": 3
   },
   {
@@ -3949,7 +3949,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.6: '30 November: St Andrew's Day, Scotland.'",
+    "sourceFact": "4.6: 'England, Scotland, Wales and Northern Ireland each have a national saint, called a patron saint, and each saint has a special day: 1 March, St David's Day, Wales; 17 March, St Patrick's Day, Northern Ireland; 23 April, St George's Day, England; 30 November, St Andrew's Day, Scotland. Only Scotland and Northern Ireland have their patron saint's day as an official holiday.'",
     "difficulty": 3
   },
   {
@@ -3984,7 +3984,7 @@
       2
     ],
     "multiSelect": false,
-    "sourceFact": "4.7: 'The UK has hosted the Olympic Games on three occasions: 1908, 1948 and 2012.'",
+    "sourceFact": "4.7: 'Britain and the former British Empire countries have had a long and successful history at the Olympic Games. The UK has hosted the Olympic Games on three occasions: 1908, 1948 and 2012. The main Olympic site for the 2012 Games was in Stratford, East London.'",
     "difficulty": 2
   },
   {
@@ -4001,7 +4001,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.7: 'The most famous competition is the Ashes, which is a series of Test matches played between England and Australia.'",
+    "sourceFact": "4.7: 'Cricket originated in England and is now played in many countries. Games can last up to five days but still result in a draw! The most famous competition is the Ashes, which is a series of Test matches played between England and Australia.'",
     "difficulty": 1
   },
   {
@@ -4018,7 +4018,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.7: 'Bobby Moore (1941-93) captained the English football team that won the World Cup in 1966.'",
+    "sourceFact": "4.7: 'Football is the UK's most popular sport, and the first professional football clubs were formed in the late 19th century. Bobby Moore (1941-93) captained the English football team that won the World Cup in 1966.'",
     "difficulty": 2
   },
   {
@@ -4052,7 +4052,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.7: 'The most famous tournament hosted in Britain is The Wimbledon Championships... It is the oldest tennis tournament in the world and the only 'Grand Slam' event played on grass.'",
+    "sourceFact": "4.7: 'Modern tennis evolved in England in the late 19th century, and the first tennis club was founded in Leamington Spa in 1872. The most famous tournament hosted in Britain is The Wimbledon Championships, which takes place each year at the All England Lawn Tennis and Croquet Club. It is the oldest tennis tournament in the world and the only 'Grand Slam' event played on grass.'",
     "difficulty": 1
   },
   {
@@ -4240,7 +4240,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.8: 'The capital city of Northern Ireland is Belfast.'",
+    "sourceFact": "4.8: 'The capital city of the UK is London. The capital city of Scotland is Edinburgh, the capital city of Wales is Cardiff, and the capital city of Northern Ireland is Belfast.'",
     "difficulty": 1
   },
   {
@@ -4257,7 +4257,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.8: 'The currency in the UK is the pound sterling (symbol £). There are 100 pence in a pound.'",
+    "sourceFact": "4.8: 'The currency in the UK is the pound sterling (symbol £). There are 100 pence in a pound. The denominations (values) of currency are: coins of 1p, 2p, 5p, 10p, 20p, 50p, £1 and £2; and notes of £5, £10, £20 and £50.'",
     "difficulty": 1
   },
   {
@@ -4274,7 +4274,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.8: 'In Wales, many people speak Welsh - a completely different language from English - and it is taught in schools and universities.'",
+    "sourceFact": "4.8: 'The UK population is very diverse, with many languages and dialects. In Wales, many people speak Welsh - a completely different language from English - and it is taught in schools and universities. In Scotland, Gaelic (again, a different language) is spoken in some parts of the highlands and islands, and in Northern Ireland some people speak Irish Gaelic.'",
     "difficulty": 1
   },
   {
@@ -4308,7 +4308,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.8: 'The capital city of Wales is Cardiff.'",
+    "sourceFact": "4.8: 'The capital city of the UK is London. The capital city of Scotland is Edinburgh, the capital city of Wales is Cardiff, and the capital city of Northern Ireland is Belfast.'",
     "difficulty": 1
   },
   {
@@ -4325,7 +4325,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.8: 'There are many variations in culture and language in the different parts of the UK... In England, accents include Geordie (Tyneside), Scouse (Liverpool) and Cockney (London).'",
+    "sourceFact": "4.8: 'There are many variations in culture and language in the different parts of the UK. In England, accents include Geordie (Tyneside), Scouse (Liverpool) and Cockney (London). The UK population is very diverse and has changed significantly through migration.'",
     "difficulty": 2
   },
   {
@@ -4342,7 +4342,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.8: 'In England, accents include Geordie (Tyneside), Scouse (Liverpool) and Cockney (London).'",
+    "sourceFact": "4.8: 'There are many variations in culture and language in the different parts of the UK. In England, accents include Geordie (Tyneside), Scouse (Liverpool) and Cockney (London).'",
     "difficulty": 2
   },
   {
@@ -4376,7 +4376,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "4.8: 'In England, accents include Geordie (Tyneside), Scouse (Liverpool) and Cockney (London).'",
+    "sourceFact": "4.8: 'There are many variations in culture and language in the different parts of the UK. In England, accents include Geordie (Tyneside), Scouse (Liverpool) and Cockney (London).'",
     "difficulty": 2
   },
   {
@@ -4512,7 +4512,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.2: 'In the 1830s and 1840s, a group called the Chartists campaigned for reform. They wanted six changes: for every man to have the vote...'",
+    "sourceFact": "5.2: 'In the 1830s and 1840s, a group called the Chartists campaigned for reform. They wanted six changes: for every man to have the vote; elections every year; for all regions to be equal in the electoral system; secret ballots; for any man to be able to stand as an MP; for MPs to be paid. At the time, the campaign was generally seen as a failure, but by 1918 most of these reforms had been adopted.'",
     "difficulty": 2
   },
   {
@@ -4529,7 +4529,7 @@
       2
     ],
     "multiSelect": false,
-    "sourceFact": "5.2: 'In 1969, the voting age was reduced to 18 for men and women.'",
+    "sourceFact": "5.2: 'In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament. It was not until 1928 that men and women got the vote at the same age, 21. In 1969, the voting age was reduced to 18 for men and women.'",
     "difficulty": 3
   },
   {
@@ -4546,7 +4546,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "5.2: 'The voting franchise was also extended to women over 30, and then in 1928 to men and women over 21.'",
+    "sourceFact": "5.2: 'In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War. It was not until 1928 that men and women got the vote at the same age, 21.'",
     "difficulty": 3
   },
   {
@@ -4717,7 +4717,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.3: 'The British constitution is not written down in any single document, and therefore it is described as 'unwritten'.'",
+    "sourceFact": "5.3: 'The British constitution is not written down in any single document, and therefore it is described as 'unwritten'. This is mainly because the UK, unlike America or France, has never had a revolution which led permanently to a totally new system of government. Some people believe that there should be a single document, but others believe an unwritten constitution allows for more flexibility and better government.'",
     "difficulty": 1
   },
   {
@@ -4734,7 +4734,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.6: 'The official home of the Prime Minister is 10 Downing Street, in central London, near the Houses of Parliament.'",
+    "sourceFact": "5.6: 'The official home of the Prime Minister is 10 Downing Street, in central London, near the Houses of Parliament. He or she also has a country house outside London called Chequers.'",
     "difficulty": 1
   },
   {
@@ -4751,7 +4751,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.3: 'The House of Commons is regarded as the more important of the two chambers in Parliament because its members are democratically elected.'",
+    "sourceFact": "5.3: 'The House of Commons is regarded as the more important of the two chambers in Parliament because its members are democratically elected. The Prime Minister and almost all the members of the cabinet are members of the House of Commons (MPs). Each MP represents a parliamentary constituency, which is a small area of the country.'",
     "difficulty": 1
   },
   {
@@ -4768,7 +4768,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.3: 'Members of the House of Lords, known as peers, are not elected by the people and do not represent a constituency.'",
+    "sourceFact": "5.3: 'Members of the House of Lords, known as peers, are not elected by the people and do not represent a constituency. Until 1958, all peers were 'hereditary', senior judges, or bishops of the Church of England. Since 1958, the Prime Minister has had the power to nominate peers just for their own lifetime; these are called life peers.'",
     "difficulty": 1
   },
   {
@@ -4785,7 +4785,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.3: 'Debates in the House of Commons are chaired by the Speaker. This person is the chief Officer of the House of Commons. The Speaker is neutral and does not represent a political party.'",
+    "sourceFact": "5.3: 'Debates in the House of Commons are chaired by the Speaker. This person is the chief officer of the House of Commons. The Speaker is neutral and does not represent a political party, even though he or she is an MP. The Speaker keeps order during political debates to make sure the rules are followed.'",
     "difficulty": 1
   },
   {
@@ -4802,7 +4802,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "5.3: 'MPs are elected at a General Election, which is held at least every five years.'",
+    "sourceFact": "5.3: 'MPs are elected at a General Election, which is held at least every five years. If an MP dies or resigns, there will be a fresh election, called a by-election, in his or her constituency.'",
     "difficulty": 2
   },
   {
@@ -4972,7 +4972,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.4: 'The Human Rights Act 1998 incorporated the European Convention on Human Rights into UK law.'",
+    "sourceFact": "5.4: 'The Human Rights Act 1998 incorporated the European Convention on Human Rights into UK law. The government, public bodies and the courts must follow the principles of the Convention.'",
     "difficulty": 2
   },
   {
@@ -4987,7 +4987,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "5.4: 'Female genital mutilation (FGM)... is illegal in the UK. Practising FGM or taking a girl or woman abroad for FGM is a criminal offence.'",
+    "sourceFact": "5.4: 'Female genital mutilation (FGM), also known as cutting or female circumcision, is illegal in the UK. Practising FGM or taking a girl or woman abroad for FGM is a criminal offence.'",
     "difficulty": 1
   },
   {
@@ -5004,7 +5004,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.4: 'You need to be at least 16 years old to ride a moped, and there are other age requirements and special tests for driving large vehicles.'",
+    "sourceFact": "5.4: 'You need to be at least 16 years old to ride a moped, and there are other age requirements and special tests for driving large vehicles. You must be at least 17 years old to drive a car or motorcycle.'",
     "difficulty": 3
   },
   {
@@ -5021,7 +5021,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.4: 'A National Insurance number is a unique personal account number... All young people in the UK are sent a National Insurance number just before their 16th birthday.'",
+    "sourceFact": "5.4: 'A National Insurance number is a unique personal account number. It makes sure that the National Insurance Contributions and tax you pay are properly recorded against your name. All young people in the UK are sent a National Insurance number just before their 16th birthday. A non-UK national living in the UK and looking for work will need a National Insurance number.'",
     "difficulty": 2
   },
   {
@@ -5192,7 +5192,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "5.5: 'Selling tobacco: it is illegal to sell tobacco products... to anyone under the age of 18.'",
+    "sourceFact": "5.5: 'It is illegal to sell tobacco products (for example, cigarettes, cigars or rolling tobacco) to anyone under the age of 18. It is also illegal to smoke in nearly every enclosed public place in the UK, including public buildings and on public transport.'",
     "difficulty": 1
   },
   {
@@ -5210,7 +5210,7 @@
       2
     ],
     "multiSelect": true,
-    "sourceFact": "5.5: 'The job of the police in the UK is to: protect life and property; prevent disturbances...; prevent and detect crime.'",
+    "sourceFact": "5.5: 'The job of the police in the UK is to: protect life and property; prevent disturbances (also known as keeping the peace); prevent and detect crime. The police are organised into a number of separate police forces headed by Chief Constables, and they are independent of the government.'",
     "difficulty": 3
   },
   {
@@ -5227,7 +5227,7 @@
       2
     ],
     "multiSelect": false,
-    "sourceFact": "5.5: 'In England, Wales and Northern Ireland a jury has 12 members, and in Scotland a jury has 15 members.'",
+    "sourceFact": "5.5: 'A jury is made up of members of the public chosen at random from the local electoral register. In England, Wales and Northern Ireland a jury has 12 members, and in Scotland a jury has 15 members. Everyone on a jury listens to the evidence presented at the trial and then decides a verdict of 'guilty' or 'not guilty' based on what they have heard.'",
     "difficulty": 2
   },
   {
@@ -5244,7 +5244,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.5: 'In Scotland, a third verdict of 'not proven' is also possible.'",
+    "sourceFact": "5.5: 'Everyone on a jury decides a verdict of 'guilty' or 'not guilty' based on the evidence they have heard. In Scotland, a third verdict of 'not proven' is also possible. If the jury finds a defendant guilty, the judge decides on the penalty.'",
     "difficulty": 3
   },
   {
@@ -5431,7 +5431,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.6: 'Chancellor of the Exchequer - responsible for the economy.'",
+    "sourceFact": "5.6: 'The Prime Minister appoints about 20 senior MPs to become ministers in charge of departments. These include: the Chancellor of the Exchequer, responsible for the economy; the Home Secretary, responsible for crime, policing and immigration; and the Foreign Secretary, responsible for managing relationships with foreign countries. These ministers form the cabinet, a committee which usually meets weekly and makes important decisions about government policy.'",
     "difficulty": 1
   },
   {
@@ -5448,7 +5448,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.6: 'One important opportunity to do this is at Prime Minister's Questions, which takes place every week while Parliament is sitting.'",
+    "sourceFact": "5.6: 'The opposition can point out what it sees as the government's failures and weaknesses. One important opportunity to do this is at Prime Minister's Questions, which takes place every week while Parliament is sitting. The leader of the opposition also appoints senior opposition MPs to lead the criticism of government ministers; together they form the shadow cabinet.'",
     "difficulty": 2
   },
   {
@@ -5465,7 +5465,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.6: 'The Scottish Parliament was formed in 1999. It sits in Edinburgh, the capital city of Scotland.'",
+    "sourceFact": "5.6: 'The Scottish Parliament was formed in 1999. It sits in Edinburgh, the capital city of Scotland. There are 129 members of the Scottish Parliament (MSPs), elected by a form of proportional representation. The Scottish Parliament can pass laws for Scotland on all matters which are not specifically reserved to the UK Parliament.'",
     "difficulty": 1
   },
   {
@@ -5482,7 +5482,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.6: 'The Assembly has 90 elected members, known as MLAs (members of the Legislative Assembly).'",
+    "sourceFact": "5.6: 'The Northern Ireland Assembly was established soon after the Belfast Agreement (or Good Friday Agreement) in 1998. The Assembly has 90 elected members, known as MLAs (members of the Legislative Assembly), elected with a form of proportional representation.'",
     "difficulty": 3
   },
   {
@@ -5686,7 +5686,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.7: 'The monarch (currently King Charles III) is the ceremonial head of the Commonwealth, which currently has 54 member states.'",
+    "sourceFact": "5.7: 'The Commonwealth is an association of countries that support each other and work together towards shared goals in democracy and development. Most member states were once part of the British Empire. The monarch (currently King Charles III) is the ceremonial head of the Commonwealth, which currently has 54 member states.'",
     "difficulty": 1
   },
   {
@@ -5703,7 +5703,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.7: 'The UK left the EU after the Brexit vote. Brexit officially took place at 23:00 GMT on 31 January 2020.'",
+    "sourceFact": "5.7: 'The UK held a referendum on its membership of the European Union in June 2016, in which a majority voted to leave. Brexit officially took place at 23:00 GMT on 31 January 2020, when the UK left the EU.'",
     "difficulty": 3
   },
   {
@@ -5720,7 +5720,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "5.7: 'There are 15 members on the UN Security Council... The UK is one of five permanent members of the Security Council.'",
+    "sourceFact": "5.7: 'There are 15 members on the UN Security Council, which recommends action when there are international problems. The UK is one of five permanent members of the Security Council.'",
     "difficulty": 2
   },
   {
@@ -5737,7 +5737,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.7: 'The North Atlantic Treaty Organization (NATO)... is a group of European and North American countries that have agreed to help each other if they come under attack.'",
+    "sourceFact": "5.7: 'The UK is also a member of NATO (the North Atlantic Treaty Organization). NATO is a group of European and North American countries that have agreed to help each other if they come under attack. It also aims to maintain peace between all of its members.'",
     "difficulty": 1
   },
   {
@@ -5908,7 +5908,7 @@
       1
     ],
     "multiSelect": false,
-    "sourceFact": "5.8: 'Anyone who is on the electoral register and is aged 18 to 70 can be asked to do this.'",
+    "sourceFact": "5.8: 'Becoming a school governor, joining a political party and serving on a jury are ways of supporting your community. Jury service is one of the most important civic duties: anyone who is on the electoral register and is aged 18 to 70 can be asked to do this.'",
     "difficulty": 3
   },
   {
@@ -5925,7 +5925,7 @@
       0
     ],
     "multiSelect": false,
-    "sourceFact": "5.8: 'Volunteering is working for good causes without payment. There are many benefits to volunteering.'",
+    "sourceFact": "5.8: 'Volunteering is working for good causes without payment. There are many benefits to volunteering, such as meeting new people and helping make your community a better place. Some volunteer activities will give you a chance to practise your English or develop work skills that will help you find a job or improve your chances of promotion.'",
     "difficulty": 1
   },
   {
@@ -5943,7 +5943,7 @@
       1
     ],
     "multiSelect": true,
-    "sourceFact": "5.8: 'to obey and respect the law... to vote in local and national government elections.'",
+    "sourceFact": "5.8: 'The values and responsibilities that everyone living in the UK shares include: to obey and respect the law; to be aware of the rights of others and respect those rights; to treat others with fairness; to look after yourself and your family; to look after the area in which you live and the environment; and to vote in local and national government elections.'",
     "difficulty": 3
   },
   {
